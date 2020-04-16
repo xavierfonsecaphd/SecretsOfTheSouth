@@ -153,7 +153,7 @@ The meteorJS online application can be found under the folder
 server and have it communicating with all the parts, you need to create an admin
 account in "http://Playfab.com".
 
-![ScreenShot](/Documentation/Pics/media/image4.tiff)
+![ScreenShot](/Documentation/Pics/media/image4.png)
 
  
 
@@ -163,7 +163,7 @@ create the SotS user administration account on Playfab. Put some basic
 information, call your application SotS, and click on create title (not really
 relevant what you write here):
 
-![ScreenShot](/Documentation/Pics/media/image5.tiff)
+![ScreenShot](/Documentation/Pics/media/image5.png)
 
  
 
@@ -171,7 +171,7 @@ Click on the rod on the top left corner, on the title settings. Click on API
 features, and copy the "Title ID" of the application just created (in this case:
 336E0):
 
-![ScreenShot](/Documentation/Pics/media/image6.tiff)
+![ScreenShot](/Documentation/Pics/media/image6.png)
 
  
 
@@ -209,7 +209,7 @@ Playfab/PlayFabServerApi.js
 In this file, please change titleId and developerSecretKey to those given by
 Playfab. In this example:
 
-![ScreenShot](/Documentation/Pics/media/image7.tiff)
+![ScreenShot](/Documentation/Pics/media/image7.png)
 
  
 
@@ -226,7 +226,7 @@ You should be seeing the following message:
 From here, you can open up your browser and visit the address
 "http://localhost:3000".
 
-![ScreenShot](/Documentation/Pics/media/image8.tiff)
+![ScreenShot](/Documentation/Pics/media/image8.png)
 
  
 
@@ -284,7 +284,7 @@ port stipulated:
 
 -   curl -IL http://127.0.0.1:8080
 
-![ScreenShot](/Documentation/Pics/media/image10.tiff)
+![ScreenShot](/Documentation/Pics/media/image10.png)
 
  
 
@@ -309,7 +309,7 @@ computer, under the port 8080, will be redirected to the actual running server.
 You can find your public address in public websites such as
 <https://whatismyipaddress.com/>. Imagine it gives you the following address:
 
-![ScreenShot](/Documentation/Pics/media/image11.tiff)
+![ScreenShot](/Documentation/Pics/media/image11.png)
 
  
 
@@ -392,7 +392,7 @@ The administrator then should scroll down and set the username of the player as
 "D986F00C78B299F0", and its password as "D986F00C78B299F0\@sots.nl", without
 quotation marks (simpler names can be used, e.g. "player_5").
 
-![ScreenShot](/Documentation/Pics/media/image16.tiff)
+![ScreenShot](/Documentation/Pics/media/image16.png)
 
  
 
