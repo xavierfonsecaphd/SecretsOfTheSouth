@@ -1,3 +1,4 @@
+![ScreenShot](/Documentation/Pics/media/logo.png)
 **Secrets of the South: How to install and run the game framework**
 
 Introduction
