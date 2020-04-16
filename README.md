@@ -329,7 +329,7 @@ yet, consider installing the version 2017.4.14f1 (has mono developer with it).
 Then, locate and select the project's folder: 3_MobileGameAppUnity3D and click
 open:
 
-![ScreenShot](/Documentation/Pics/media/image12.png)
+![ScreenShot](/Documentation/Pics/media/img12.png)
 
  
 
