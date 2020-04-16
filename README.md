@@ -408,15 +408,16 @@ convention for the QR code to be used to log into the mobile application:
 [^9]: <https://www.qr-code-generator.com/>, QR Code Generator, last visited on
 15th Apr. 2020
 
-[SotS Custom
-Server/HandleQRCode/_0x001b00_PlayerID](http://PUBLIC_DOMAIN/HandleQRCode/_0x001b00_PlayerID)
+<http://PUBLIC_DOMAIN/HandleQRCode/_0x001b00_PlayerID>
 
-where *PlayerID* is the User ID just created by the administrator in Playfab. 
+PlayerID -> is the User ID just created by the administrator in Playfab. 
+PUBLIC_DOMAIN -> public URL for the Secrets of the South website.
+
 NOTE: Please bear in mind that PUBLIC_DOMAIN is the public URL for the mobile game application to reach out to your website. Do remember that at this moment you are using "93.190.140.31:8080" publicly, and that, likely, you should at least use a DNS to create a friendlier name. While you do not set up a proper server publicly available with your own domain. In my work, I used "http://secretsofthesouth.tbm.tudelft.nl", and as such, the following printscreens will mirror that. Please don't get confused :)
 
-For our example (user D986F00C78B299F0), the text to be used in the creation of the QR code is:
+For our example (user D986F00C78B299F0 ; PUBLIC_DOMAIN 93.190.140.31:8080 ), the text to be used in the creation of the QR code is:
 
-<http://secretsofthesouth.tbm.tudelft.nl/HandleQRCode/_0x001b00_D986F00C78B299F0>
+<http://93.190.140.31:8080/HandleQRCode/_0x001b00_D986F00C78B299F0>
 
 A resulting QR code, created in an external tool, for this Player 5 would be:
 
