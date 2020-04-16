@@ -1,0 +1,27 @@
+<template name="Challenge">
+    <section id="showContent_black" class="challenges" data-stellar-background-ratio="0.5">
+        <div class="container">
+                <div class="new-challenge-container" style="text-align: center;">
+                      
+                        <form class="info-challenge-edit" style="color: black;"  id="chl">
+                            <input type="text" name="name" value={{name}} required>
+                            <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl">{{challenge.description}}</textarea>
+                            <input type="number" name="typeOfChallengeIndex" value={{challenge.typeOfChallengeIndex}} min="0" max="0" required>
+                            <input type="number" name="numberOfPeopleToMeet" value={{challenge.numberOfPeopleToMeet}} min="0" max="10" required>
+                            <input type="hidden" name="latitude" value={{challenge.latitude}}>
+                            <input type="hidden" name="longitude" value={{challenge.longitude}}>
+                            <input type="text" name="question" value={{challenge.question}} required>
+                            <input type="text" name="answer" value={{challenge.answer}} required>
+                            <input type="url" name="imageURL" value={{challenge.imageURL}} required>
+                            <input type="number" name="route" value={{challenge.route}} required>
+
+                            <input class="new-challenge-container" type="submit" name="submit" value="Update this Challenge">
+                        </form>
+                    </div>
+        </div>
+        
+        
+    </section>
+    <a href="/Challenges" style="color: black; text-align: center;">Return</a>
+</template>
+

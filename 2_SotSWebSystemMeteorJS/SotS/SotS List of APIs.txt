@@ -1,0 +1,15 @@
+// Challenges Timer Multiplayer Independent
+	// Get one challenge by ID:
+	// Maps to: /api/challenges_timer_multiplayer_independent?id=mbysa...mJKEi
+
+	// Get this type of challenges nearby
+	// Maps to: /api/challengestimermultiplayerindependentnearby?maxDistanceFromPlayer=10.0&playerLat=52.0014568&playerLng=4.3280156
+
+
+// Challenges Timed Tasks
+	// Challenges_Timed_TaskDB
+	// Maps to: /api/challenges_timed_task?id=dQbhewizkFAgCLWTZ
+	
+	// Get this type of challenges nearby	
+	// Maps to: /api/challengestimedtasknearby?maxDistanceFromPlayer=10.0&playerLat=52.0014568&playerLng=4.3280156
+	

@@ -1,0 +1,14 @@
+<template name="Layout">
+        {{#if Template.subscriptionsReady}} <!-- this is just to make sure our content is loaded before use-->
+            {{> Header}}
+            <main class="loading-wrapper">
+                    {{>Template.dynamic template=main}}    
+            </main>
+            {{> Footer}}
+        {{else}}
+            <div class="preloader">
+                <div class="spinner"></div>
+            </div>
+        {{/if}}
+        
+    </template>

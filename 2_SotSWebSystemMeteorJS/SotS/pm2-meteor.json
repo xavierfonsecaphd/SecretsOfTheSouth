@@ -1,0 +1,28 @@
+{
+  "appName": "SotS",
+  "appLocation": {
+    "local": "./"
+  },
+  "meteorSettingsLocation": "/Users/Xavier/Desktop/meteor/Projects/SotS/settings.json",
+  "meteorSettingsInRepo": false,
+  "prebuildScript": "",
+  "meteorBuildFlags": "--architecture os.linux.x86_64",
+  "env": {
+    "ROOT_URL": "localhost",
+    "PORT": 3000,
+    "MONGO_URL": "mongodb://xavier:secrets_of_the_south@secretsofthesouth2.tbm.tudelft.nl:10001/sots_v1"
+  },
+  "server": {
+    "host": "http://secretsofthesouth2.tbm.tudelft.nl/",
+    "username": "",
+    "password": "",
+    "deploymentDir": "/opt/meteor-apps",
+    "loadProfile": "",
+    "nvm": {
+      "bin": "",
+      "use": ""
+    },
+    "exec_mode": "cluster_mode",
+    "instances": 1
+  }
+}

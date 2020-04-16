@@ -1,0 +1,75 @@
+<template name="Admin">
+
+        <section id="showContent_black" class="challenges" data-stellar-background-ratio="0.5">
+                <div class="container">
+                        <div class="row">
+                                <h2>List of Challenges to approve or deny</h2>
+                                <p><br/></p>
+                        </div>
+                        
+                        
+                        <div class="row">
+                                {{#if Template.subscriptionsReady}} <!-- this is just to make sure our content is loaded before use-->
+                                <table class="table" style="text-align: justify;">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                   <strong> Name of the Challenge</strong>
+                                                </th>
+                                                <th>
+                                                 <strong>   Type of Challenge</strong>
+                                                </th>
+                                                <th>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        {{#each challenges}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each challenges1}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge1}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each Challenges_Hunter}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge_hunter}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each Challenges_Voting}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge_voting}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each Challenges_Timer_Multiplayer_Independent}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge_timer_multiplayer_independent}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each Challenges_Timed_task}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge_timed_task}}
+                                                </tbody>
+                                        {{/each}}
+                                        {{#each Challenges_OpenQuiz}}
+                                                <tbody>
+                                                        {{> Admin_singleChallenge_open_quiz}}
+                                                </tbody>
+                                        {{/each}}
+        
+                                </table>
+        
+                            
+                                {{else}}
+                                    <p>Loading...</p>
+                                {{/if}}
+                        </div>
+        
+                        
+                </div>
+        
+            </section>
+
+</template>

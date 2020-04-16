@@ -1,0 +1,17 @@
+{
+  "public": {
+      "analyticsSettings": {
+        "Google Analytics": {
+          "trackingId": "UA-118716978-1"
+        }
+      },
+      "ga": {
+            "account": "UA-118716978-1"
+        }
+    },
+    "private": {
+        "stripe": {
+            "apiPrivate": "Putas privadas"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<template name="QRCode">
+
+        <section id="game" data-stellar-background-ratio="0.5">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                        <i class="fa fa-compass" style="font-size: 80px;padding-top: 0px;color: black;"></i>
+                                        <h1 style="color: black;">The Secrets of the South</h1>
+                                        <p> A serious game for social interaction in Rotterdam</p>
+                                    <p><br/></p>
+                                    
+                                </div>
+                                
+                                {{>qrcode text=url size=256}}
+
+                                <div class="col-md-12 col-sm-12">
+                                        <p> If you would like to know more about this research, 
+                                            please visit <u><strong>http://secretsofthesouth.tbm.tudelft.nl/</strong></u>, 
+                                            or simply read this QR code.</p>
+                                    <p><br/></p>
+                                    
+                                </div>
+                        </div>
+                        
+                        
+                </div>
+        
+            </section>
+</template>

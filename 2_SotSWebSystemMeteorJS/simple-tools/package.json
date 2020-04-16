@@ -1,0 +1,20 @@
+{
+  "name": "simple-tools",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "bcrypt": "^1.0.3",
+    "classnames": "^2.2.5",
+    "eslint": "^4.19.1",
+    "meteor-node-stubs": "^0.3.2",
+    "npm": "^5.8.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}

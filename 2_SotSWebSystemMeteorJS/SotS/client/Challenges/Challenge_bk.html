@@ -1,0 +1,41 @@
+<template name="Challenge_bk">
+    {{#if editMode }}
+        <div class="new-challenge-container" style="text-align: center;">
+                {{#if isOwnerUser ownerPlayFabID }}
+                    <button class="close-edit-challenge">Close</button>
+                {{/if}}
+              
+                <form class="info-challenge-edit" style="color: black;"  id="chl">
+                    <input type="text" name="name" value={{name}} required>
+                    <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl">{{description}}</textarea>
+                    <input type="number" name="typeOfChallengeIndex" value={{typeOfChallengeIndex}} min="0" max="0" required>
+                    <input type="text" name="question" value={{question}} required>
+                    <input type="text" name="answer" value={{answer}} required>
+                    <input type="number" name="route" value={{route}} required>
+                    <input type="url" name="imageURL" value={{imageURL}} required>
+                    <p style="color: white;"><br/>PS: If you cannot click on the map and add the marker, please refresh the page :)</p>
+                    <div class="map-container">
+                        {{> googleMap name="UpdateMap" options=mapOptions2}}
+                    </div>
+                    <input class="close-edit-challenge" type="submit" name="submit" value="Update this Challenge">
+                </form>
+            </div>
+        {{else}}
+            <tr>
+                <td>
+                        {{name}}     
+                </td>
+                <td>
+
+                        {{typeOfChallengeString typeOfChallengeIndex}}     
+                    </td>
+                    <td>
+                            {{#if isOwnerUser ownerPlayFabID }}
+                                <i style="color: gold;"  class="fa fa-pencil"></i> 
+                                <i style="margin-left:2em;color: black;" class="fa fa-trash"></i> 
+                            {{/if}}
+                    </td>
+            </tr>
+        {{/if}}
+</template>
+

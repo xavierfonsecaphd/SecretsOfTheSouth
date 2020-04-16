@@ -1,0 +1,81 @@
+<template name="Footer">
+    <!-- FOOTER -->
+    <footer>
+        {{#if currentUser}}
+
+        <div class="container">
+                <div class="col-md-12 col-sm-12">
+                        <div class="col-md-4-5 col-sm-5">
+                            <div class="footer-link-emails"> 
+                                <p>&copy; 2018 - Secrets of the South, research project from TU Delft.</p>
+                                    <li><a href="/PrivacyPolicy"><strong>Privacy Policy</strong></a></li>
+                                    <li><a href="/TermsOfServiceGameApp"><strong>Terms of Service</strong></a></li>      
+                                    <p style="padding-block-end: 10px;"></p>
+                                    
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4-5 col-sm-5">
+                            <div class="footer-link-emails"> 
+                                <p>Head researchers:</p>
+                                <li><a href="mailto:yourEmail@emailProvider.com?subject=Research Project: Secrets of the South"><strong>Your Name</strong></a></li>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-2">
+                                <div class="footer-link-emails" style="color: white;"> 
+                                        <p>Click to Generate a QR Code:</p>
+                                        <div class="qrImageContainer">
+                                                {{>qrcode text='Click to Generate a QR Code' size=64}}
+                                                <button class="btn">:)</button>
+                                              </div>
+                                        
+                                </div>
+                            </div>
+    
+    
+                </div>
+            </div>
+
+
+            
+        {{else}}
+        
+        <div class="container">
+                <div class="col-md-12 col-sm-12">
+                        <div class="col-md-6 col-sm-5">
+                            <div class="footer-link-emails"> 
+                                <p>&copy; 2018 - Secrets of the South, research project from TU Delft.</p>
+                                    <li><a href="/PrivacyPolicy"><strong>Privacy Policy</strong></a></li>
+                                    <li><a href="/TermsOfServiceGameApp"><strong>Terms of Service</strong></a></li>      
+                                    <p style="padding-block-end: 10px;"></p>
+                                    
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6 col-sm-5">
+                            <div class="footer-link-emails"> 
+                                <p>Head researchers:</p>
+                                <li><a href="mailto:yourEmail@emailProvider.com?subject=Research Project: Secrets of the South"><strong>Your Name</strong></a></li>
+                            </div>
+                        </div>
+    
+                        
+    
+    
+                </div>
+            </div>
+        
+        {{/if}}
+
+        <div class="container">
+            <div class="row">
+                <img src="../images/TU_Delft_logo_RGB.png" class="blog-image" alt="Delft University of Technology" style="width: 50%;">      
+            </div>
+        </div>
+
+        
+   </footer>
+</template>
+
+

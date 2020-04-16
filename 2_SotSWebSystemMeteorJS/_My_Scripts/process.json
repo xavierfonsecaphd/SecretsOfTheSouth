@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "putas e vinho verde",
+      "script": "./main.js",
+      "log_date_format": "YYYY-MM-DD",
+      "exec_mode": "fork_mode",
+      "env": {
+        "PORT": 3000,
+        "MONGO_URL": "mongodb://127.0.0.1/db1",
+        "ROOT_URL": "http://localhost:3000/",
+        "BIND_IP": "127.0.0.1"
+      }
+    }
+  ]
+}

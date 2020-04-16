@@ -1,0 +1,23 @@
+
+
+<template name="Header">
+
+    <div class="ui top fixed borderless inverted menu">
+  <div class="ui container">
+      <a class="item" href="/"><h1>Secrets of the South</h1></a>
+
+
+      <a class="item" href="/">Home</a>
+      <a class="item" href="/about-research">About the Research </a>
+
+      {{#if currentUser}}
+        <a class="{{ isActiveRoute 'Challenges'}} item" href="/Challenges">Challenges</a>
+        {{#if isAdmin}}
+          <a class="{{ isActiveRoute 'Challenges'}} right aligned item" href="/Admin">Admin</a>
+          <a class="{{ isActiveRoute 'Challenges'}} right aligned item" href="/PrintLoginQRPage">Login QR Page</a>
+        {{/if}}
+      {{/if}}
+      <a href="#" class="right aligned item" style="color: white;">{{> loginButtons align="right"}} </a>
+    </div>
+  </div>
+</template>

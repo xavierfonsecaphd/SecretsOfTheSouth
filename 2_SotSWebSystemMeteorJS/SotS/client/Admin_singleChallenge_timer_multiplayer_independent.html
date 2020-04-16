@@ -1,0 +1,45 @@
+<template name="Admin_singleChallenge_timer_multiplayer_independent">
+    
+    {{#if editMode }}
+        <div class="new-challenge-container1" style="text-align: center;">
+            
+            <button class="close-edit-challenge_timer_multiplayer_independent">Close</button>
+              
+                <form class="info-challenge-edit_timer_multiplayer_independent" style="color: black;"  id="chl">
+                    <input type="text" name="name" value={{name}} required>
+                    <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl">{{description}}</textarea>
+                    <input type="text" name="task" value={{task}} required>
+                    <input type="number" name="timer" value={{timer}} required>
+                    <input type="url" name="imageURL" value={{imageURL}} required>
+                    <input type="number" name="route" value={{route}} required>
+                    <p style="color:white;text-align: left;"></p>
+                    <p style="color: white;"><br/>PS: If you cannot click on the map and add the marker, please refresh the page :)</p>
+                    <div class="map-container">
+                        {{> googleMap name="UpdateMap" options=mapOptions2}}
+                    </div>
+                    <input class="close-edit-challenge_timer_multiplayer_independent" type="submit" name="submit" value="Update this Timer Multiplayer Independent Challenge">
+                </form>
+            </div>
+        {{else}}
+            <tr>
+                <td>
+                        {{name}}     
+                </td>
+                <td>
+
+                        {{typeOfChallengeString typeOfChallengeIndex}}     
+                    </td>
+                    <td>
+                        <i style="color: gold;" class="fa fa-pencil"></i> 
+                        <i style="margin-left:2em;color: black;" class="fa fa-trash"></i> 
+                        {{#if validated}}
+                            <button class="toToggleTheValidation4" style="margin-left:2em;color: black;">Revoke Validation</button>
+                        {{else}}
+                            <button class="toToggleTheValidation4" style="margin-left:2em;color: black;">Validate</button>
+                        {{/if}}
+                        
+                    </td>
+            </tr>
+        {{/if}}
+</template>
+

@@ -1,0 +1,269 @@
+
+<template name="Challenges">
+    <section id="showContent_black" class="challenges" data-stellar-background-ratio="0.5">
+        <div class="container">
+                <div class="row">
+                        <h2>List of Challenges</h2>
+                        <div name="">An overview of the Challenges created so far, and that you can complete as well. <br /> 
+                            This is also the place to manage your own challenges.</div>
+   
+                </div>
+                
+                <div class="row">
+                       {{#if sharedReactiveParentVar }}
+                       <i class="fa fa-close"></i>
+                        <div class="new-challenge-container">
+                            
+                            
+                            
+                            <form class="info-challenge-add" style="color: black;" id="chl">
+                                <input type="text" name="name" placeholder="Title of the challenge" required>
+                                <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                <input type="text" name="question" placeholder="Question that the players need to answer..." required>
+                                <input type="text" name="answer" placeholder="Answer of the question (please make it a simple one, as players have to give the exact answer)" required>
+                                <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                <div class="map-container">
+                                    {{> googleMap name="map" options=mapOptions}}
+                                  </div>
+
+                                <input type="submit" name="submit" value="Add new Challenge">
+                            </form>
+                        </div> 
+                    {{else}}
+                        {{#if introduceChallenge1 }}
+                            <i class="fa fa-close"></i>
+                            <div class="new-challenge-container1">
+                                
+                                
+                                
+                                <form class="info-challenge1-add" style="color: black;" id="chl">
+                                    <input type="text" name="name" placeholder="Title of the challenge" required>
+                                    <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                    <input type="text" name="task" placeholder="Task that the players need to collectivelly perform to solve the challenge..." required>
+                                    <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                    <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                    <div class="map-container">
+                                        {{> googleMap name="map" options=mapOptions}}
+                                    </div>
+
+                                    <input type="submit" name="submit" value="Add New Multiplayer Challenge">
+                                </form>
+                            </div> 
+
+                            {{else}}
+                                {{#if introduceChallengeHunter }}
+                                <i class="fa fa-close"></i>
+                                <div class="new-challenge-container2">
+                                    
+                                    
+                                    
+                                    <form class="info-challengeHunter-add" style="color: black;" id="chl">
+                                        <input type="text" name="name" placeholder="Title of the challenge" required>
+                                        <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                        <input type="text" name="question" placeholder="Question that the players need to answer..." required>
+                                        <input type="text" name="answer" placeholder="Answer of the question (please make it a simple one, as players have to give the exact answer)" required>
+                                        <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                        <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                        <p style="color:white;text-align: left;"></p>
+                                        <input type="url" name="content_picture" placeholder="The ULR of the image you want the players to scan and see (format http://.../image.jpg)" >
+                                        <p style="color:white;text-align: left;">OR</p>
+                                        
+                                        <input type="text" name="content_text" placeholder="Put the text you want the players to see, when scanning the QR codes..." >
+                                        <p style="color:white;text-align: left;"></p>
+                                        <div class="map-container">
+                                            {{> googleMap name="map" options=mapOptions}}
+                                        </div>
+                                        <p style="color:white;text-align: left;"></p>
+                                        <input type="submit" name="submit" value="Add New Hunter Challenge">
+                                    </form>
+                                </div> 
+
+                                {{else}}
+                                {{#if introduceChallengeVoting }}
+                                <i class="fa fa-close"></i>
+                                <div class="new-challenge-container3">
+                                    
+                                    
+                                    
+                                    <form class="info-challengeVoting-add" style="color: black;" id="chl">
+                                        <input type="text" name="name" placeholder="Title of the challenge" required>
+                                        <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                        <input type="text" name="task" placeholder="Task for the players to perform" required>
+                                        <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                        <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                        <p style="color:white;text-align: left;"></p>
+                                        
+                                        <div class="map-container">
+                                            {{> googleMap name="map" options=mapOptions}}
+                                        </div>
+                                        <p style="color:white;text-align: left;"></p>
+                                        <input type="submit" name="submit" value="Add New Timer Multiplayer Independent Challenge">
+                                    </form>
+                                </div>
+
+                                {{else}}
+                                {{#if introduceChallengeTimerMultiplayerIndependent }}
+                                    <i class="fa fa-close"></i>
+                                    <div class="new-challenge-container4">
+                                        
+                                        <form class="info-challengeTimerMultiplayerIndependent-add" style="color: black;" id="chl">
+                                            <input type="text" name="name" placeholder="Title of the challenge" required>
+                                            <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                            <input type="text" name="task" placeholder="Task that the players need to collectivelly perform to solve the challenge..." required>
+                                            <input type="number" name="timer" placeholder="Limit of time (in minutes), to perform this task" required>
+                                            <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                            <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+
+                                            <div class="map-container">
+                                                {{> googleMap name="map" options=mapOptions}}
+                                            </div>
+
+                                            <input type="submit" name="submit" value="Add New Timer Multiplayer Independent Challenge">
+                                        </form>
+                                    </div>
+                                    {{else}}
+                                    {{#if introduceChallengeTimedTask }}
+                                        <i class="fa fa-close"></i>
+                                        <div class="new-challenge-container5">
+                                            
+                                            <form class="info-challengeTimedTask-add" style="color: black;" id="chl">
+                                                <input type="text" name="name" placeholder="Title of the challenge" required>
+                                                <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                                <input type="text" name="task" placeholder="Task that the players need to collectivelly perform to solve the challenge..." required>
+                                                <input type="number" name="timer" placeholder="Limit of time (in minutes), to perform this task. From 1 to 60 minutes." required>
+                                                <input type="text" name="questionHowMany" placeholder="Question after the time up. E.g.: How many people did you encounter/speak to?" required>
+                                                <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                                <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                                <div class="map-container">
+                                                    {{> googleMap name="map" options=mapOptions}}
+                                                </div>
+
+                                                <input type="submit" name="submit" value="Add New Timed Task Challenge">
+                                            </form>
+                                        </div>
+                                        {{else}}
+                                        {{#if introduceChallengeOpenQuiz }}
+                                            <i class="fa fa-close"></i>
+                                            <div class="new-challenge-container6">
+                                                
+                                                <form class="info-challengeOpenQuiz-add" style="color: black;" id="chl">
+                                                    <input type="text" name="name" placeholder="Title of the challenge" required>
+                                                    <textarea name="description" rows="12" placeholder="Description of the challenge" form="chl"></textarea>
+                                                    <input type="text" name="question" placeholder="Question that the players need to answer to solve the challenge. This should be an open question, to collect what players think/find..." required>
+                                                    <input type="url" name="imageURL" placeholder="The ULR of an image for the challenge (format http://.../image.jpg)" required>
+                                                    <input type="number" name="route" placeholder="0 [Default. Please dont use this unless you know what you are doing], 1 [Route 1 only], 2 [Route 2 only], or 3 [Route 3 only]" required>
+                                                    
+                                                    <div class="map-container">
+                                                        {{> googleMap name="map" options=mapOptions}}
+                                                    </div>
+    
+                                                    <input type="submit" name="submit" value="Add New Open Quiz Challenge">
+                                                </form>
+                                            </div>
+
+                                            {{else}}
+                                            <!-- Then this is the last else-->
+                                                <button class="new-challenge" style="color: black;text-align: initial;margin-bottom: 0px;">New Quiz Challenge</button>
+                                                <button class="new-challenge1" style="color: black;text-align: initial;margin-bottom: 0px;">New Multiplayer Challenge</button>
+                                                <button class="new-challenge-hunter" style="color: black;text-align: initial;margin-bottom: 0px;">New Hunter Challenge</button>
+                                                <button class="new-challenge-voting" style="color: black;text-align: initial;margin-bottom: 0px;">New Voting Challenge</button>
+                                                <br/>
+                                                <!-- <button class="new-challenge-timer-multiplayer-independent" style="color: black;text-align: initial;margin-bottom: 0px;">New Timer Multiplayer Independent Challenge</button>-->
+                                                <button class="new-challenge-timed-task" style="color: black;text-align: initial;margin-bottom: 0px;">New Timed Task Challenge</button>
+                                                <button class="new-challenge-open-quiz" style="color: black;text-align: initial;margin-bottom: 0px;">New Open Quiz Challenge</button>
+                                                <br style="margin-bottom: 20px;"/>
+                                                {{#if showOverallMap}}
+                                                    <div class="map-container2">
+                                                        {{> googleMap name="OverallMap" options=mapOptions2}}
+                                                    </div>
+                                                <!--{{else}}
+                                                    <button class="showMap" style="color: black;">Show map with all challenges</button> -->
+                                                {{/if}}
+                    
+                                            {{/if}}
+                                        {{/if}}
+                                    {{/if}}
+                                {{/if}}
+                            {{/if}}
+                        {{/if}}
+                                
+                        
+                    {{/if}}
+                    
+                    
+
+                </div>
+                
+
+                {{#if newChallengeMode }}
+                
+                <p><br/></p>
+                <div class="row">
+                        {{#if Template.subscriptionsReady}} <!-- this is just to make sure our content is loaded before use-->
+                        <table class="table" style="text-align: justify;">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                           <strong> Name of the Challenge</strong>
+                                        </th>
+                                        <th>
+                                         <strong>   Type of Challenge</strong>
+                                        </th>
+                                        <th>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                {{#each challenges}}
+                                <tbody>
+                                    {{> Challenge_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges1}}
+                                <tbody>
+                                    {{> Challenge1_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges_hunter}}
+                                <tbody>
+                                    {{> Challenge_hunter_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges_voting}}
+                                <tbody>
+                                    {{> Challenge_voting_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges_timer_multiplayer_independent}}
+                                <tbody>
+                                    {{> Challenge_timer_multiplayer_independent_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges_timed_task}}
+                                <tbody>
+                                    {{> Challenge_timed_task_bk}}
+                                </tbody>
+                                {{/each}}
+                                {{#each challenges_openQuiz}}
+                                <tbody>
+                                    {{> Challenge_openQuiz_bk}}
+                                </tbody>
+                                {{/each}}
+                        </table>
+
+                    
+                        {{else}}
+                            <p style="color:white;">Loading...</p>
+                        {{/if}}
+                </div>
+
+
+                {{/if}}
+        </div>
+
+    </section>
+
+</template>
+
+
+

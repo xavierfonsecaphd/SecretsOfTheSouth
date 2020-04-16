@@ -1,0 +1,79 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+reactive-var            # Reactive variable for tracker
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifier-js    # JS minifier run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+shell-server            # Server-side component of the `meteor shell` command
+
+kadira:flow-router      # FlowRouter is a very simple router for Meteor
+kadira:blaze-layout     # Layout manager for blaze (works well with FlowRouter)
+
+
+erasaur:meteor-lodash 
+stolinski:stylus-multi 
+fortawesome:fontawesome 
+spiderable 
+fastclick 
+raix:handlebar-helpers 
+aldeed:collection2
+#aldeed:autoform 
+accounts-ui
+accounts-password 
+matb33:bootstrap-glyphicons 
+msavin:jetsetter 
+zimme:active-route 
+
+
+
+jquery
+underscore
+ejson
+dynamic-import
+sacha:spin
+arillo:flow-router-helpers
+#semantic:ui
+juliancwirko:postcss
+
+nemo64:bootstrap
+
+aldeed:collection2-core
+
+msavin:mongol
+session
+accounts-base
+datariot:ganalytics
+check
+okgrow:router-autoscroll
+
+meteortesting:mocha               # A package for writing and running your meteor app and package tests with mocha
+johanbrook:publication-collector  # Test a Meteor publication by collecting its output
+#standard-minifier-css
+less
+#aldeed:simple-schema
+templates:forms
+dburles:google-maps
+panter:qrcode
+random
+nimble:restivus
+okgrow:analytics
+meteorhacks:inject-initial
+meteorhacks:picker
+
+http
+simple:json-routes
+shammar13:busboy
+meteorhacks:npm
+
+npm-container
+email

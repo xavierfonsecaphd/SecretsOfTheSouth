@@ -1,0 +1,22 @@
+{
+ "appName": "simple-tools",
+ "appLocation": {
+  "local": "./"
+ },
+ "meteorSettingsLocation": "./settings.json",
+ "meteorBuildFlags": "--architecture os.osx.x86_64",
+ "env": {
+  "ROOT_URL": "localhost",
+  "PORT": 8000,
+  "MONGO_URL": "mongodb://localhost:27017/db1"
+ },
+ "server": {
+  "host": "osx",
+  "username": "ubuntu",
+  "password": "ubuntu",
+  "deploymentDir": "~/Desktop/meteor/DeployedApps",
+  "loadProfile": "",
+  "exec_mode": "cluster_mode",
+  "instances": 2
+ }
+}
