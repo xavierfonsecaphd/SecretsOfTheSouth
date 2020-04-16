@@ -118,7 +118,7 @@ Change terminal window, and reconnect to the server:
 From here, you can use Studio 3T to connect to the database you created, and see
 if it works:
 
-![ScreenShot](/Documentation/Pics HowTo/media/image1.png)
+![ScreenShot](/Documentation/Pics\ HowTo/media/image1.png)
 
  
 
