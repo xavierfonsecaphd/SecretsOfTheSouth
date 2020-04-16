@@ -411,6 +411,7 @@ convention for the QR code to be used to log into the mobile application:
 <http://PUBLIC_DOMAIN/HandleQRCode/_0x001b00_PlayerID>
 
 PlayerID -> is the User ID just created by the administrator in Playfab. 
+
 PUBLIC_DOMAIN -> public URL for the Secrets of the South website.
 
 NOTE: Please bear in mind that PUBLIC_DOMAIN is the public URL for the mobile game application to reach out to your website. Do remember that at this moment you are using "93.190.140.31:8080" publicly, and that, likely, you should at least use a DNS to create a friendlier name. While you do not set up a proper server publicly available with your own domain. In my work, I used "http://secretsofthesouth.tbm.tudelft.nl", and as such, the following printscreens will mirror that. Please don't get confused :)
