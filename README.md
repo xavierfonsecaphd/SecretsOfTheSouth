@@ -124,14 +124,14 @@ if it works:
 
 Figure 1: Give a name to the Database
 
-![](Documentation/Pics HowTo//media/image2.png)
+![ScreenShot](/Documentation/Pics/media/image2.png)
 
  
 
 Figure 2: Configure the user accessing, the password, authentication algorithm
 used, and the database used.
 
-![](Documentation/Pics HowTo//media/image3.png)
+![ScreenShot](/Documentation/Pics/media/image3.png)
 
  
 
@@ -153,7 +153,7 @@ The meteorJS online application can be found under the folder
 server and have it communicating with all the parts, you need to create an admin
 account in "http://Playfab.com".
 
-![](Documentation/Pics HowTo//media/image4.tiff)
+![ScreenShot](/Documentation/Pics/media/image4.tiff)
 
  
 
@@ -163,7 +163,7 @@ create the SotS user administration account on Playfab. Put some basic
 information, call your application SotS, and click on create title (not really
 relevant what you write here):
 
-![](Documentation/Pics HowTo//media/image5.tiff)
+![ScreenShot](/Documentation/Pics/media/image5.tiff)
 
  
 
@@ -171,7 +171,7 @@ Click on the rod on the top left corner, on the title settings. Click on API
 features, and copy the "Title ID" of the application just created (in this case:
 336E0):
 
-![](Documentation/Pics HowTo//media/image6.tiff)
+![ScreenShot](/Documentation/Pics/media/image6.tiff)
 
  
 
@@ -209,7 +209,7 @@ Playfab/PlayFabServerApi.js
 In this file, please change titleId and developerSecretKey to those given by
 Playfab. In this example:
 
-![](Documentation/Pics HowTo//media/image7.tiff)
+![ScreenShot](/Documentation/Pics/media/image7.tiff)
 
  
 
@@ -226,7 +226,7 @@ You should be seeing the following message:
 From here, you can open up your browser and visit the address
 "http://localhost:3000".
 
-![](Documentation/Pics HowTo//media/image8.tiff)
+![ScreenShot](/Documentation/Pics/media/image8.tiff)
 
  
 
@@ -275,7 +275,7 @@ If you ever want to stop it, run:
 You can put the following standard address on your brower, and you should have
 the standard page being shown: *http://127.0.0.1:8080*.
 
-![](Documentation/Pics HowTo//media/image9.png)
+![ScreenShot](/Documentation/Pics/media/image9.png)
 
  
 
@@ -284,7 +284,7 @@ port stipulated:
 
 -   curl -IL http://127.0.0.1:8080
 
-![](Documentation/Pics HowTo//media/image10.tiff)
+![ScreenShot](/Documentation/Pics/media/image10.tiff)
 
  
 
@@ -309,7 +309,7 @@ computer, under the port 8080, will be redirected to the actual running server.
 You can find your public address in public websites such as
 <https://whatismyipaddress.com/>. Imagine it gives you the following address:
 
-![](Documentation/Pics HowTo//media/image11.tiff)
+![ScreenShot](/Documentation/Pics/media/image11.tiff)
 
  
 
@@ -329,7 +329,7 @@ yet, consider installing the version 2017.4.14f1 (has mono developer with it).
 Then, locate and select the project's folder: 3_MobileGameAppUnity3D and click
 open:
 
-![](Documentation/Pics HowTo//media/image12.png)
+![ScreenShot](/Documentation/Pics/media/image12.png)
 
  
 
@@ -337,7 +337,7 @@ Also bear in mind that, for you to run this game, you will have to install a few
 plugins into Unity3D, namely the ones from **Mapbox**, and **Playfab**. Then,
 locate the file "MasterManager", and open it up:
 
-![](Documentation/Pics HowTo//media/image13.png)
+![ScreenShot](/Documentation/Pics/media/image13.png)
 
  
 
@@ -345,14 +345,14 @@ You need to change the line 82 with the server URL for the server you installed
 beforehand (currently "**secretsofthesouth.tbm.tudelft.nl**"). In our example,
 it becomes "**93.190.140.31:8080**":
 
-![](Documentation/Pics HowTo//media/image14.png)
+![ScreenShot](/Documentation/Pics/media/image14.png)
 
  
 
 You can install the android application "Unity Remote 5", and play the game
 inside Unity SDK (figure below):
 
-![](Documentation/Pics HowTo//media/image15.png)
+![ScreenShot](/Documentation/Pics/media/image15.png)
 
  
 
@@ -392,7 +392,7 @@ The administrator then should scroll down and set the username of the player as
 "D986F00C78B299F0", and its password as "D986F00C78B299F0\@sots.nl", without
 quotation marks (simpler names can be used, e.g. "player_5").
 
-![](Documentation/Pics HowTo//media/image16.tiff)
+![ScreenShot](/Documentation/Pics/media/image16.tiff)
 
  
 
@@ -417,7 +417,7 @@ the QR code is:
 
 A resulting QR code, created in an external tool, for this Player 5 would be:
 
-![](Documentation/Pics HowTo//media/image17.png)
+![ScreenShot](/Documentation/Pics/media/image17.png)
 
  
 
