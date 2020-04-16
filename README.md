@@ -163,9 +163,7 @@ create the SotS user administration account on Playfab. Put some basic
 information, call your application SotS, and click on create title (not really
 relevant what you write here):
 
-![](~/Desktop/SotS Game Framework/Documentation/Pics HowTo//media/image5.tiff)
-
- 
+![Uma imagem com captura de ecrã Descrição gerada automaticamente](~/Desktop/SotS Game Framework/Documentation/Pics HowTo//media/image5.tiff)
 
 Click on the rod on the top left corner, on the title settings. Click on API
 features, and copy the "Title ID" of the application just created (in this case:
@@ -396,7 +394,8 @@ quotation marks (simpler names can be used, e.g. "player_5").
 
  
 
-Figure 11: Inserting a new player in the Playfab backend system
+[]{\#_Ref23344075 .anchor}Figure 11: Inserting a new player in the Playfab
+backend system
 
 Once this is done, the administrator of the Playfab system needs to create a QR
 code id with this new user. He can use any online tool for that (example[^9]).
@@ -419,12 +418,16 @@ A resulting QR code, created in an external tool, for this Player 5 would be:
 
 ![](~/Desktop/SotS Game Framework/Documentation/Pics HowTo//media/image17.png)
 
-Figure 12: Example of QR code for logging into the SotS mobile game application:
-Player 5.
+ 
+
+[]{\#_Ref23345171 .anchor}Figure 12: Example of QR code for logging into the
+SotS mobile game application: Player 5.
 
 This QR code can now be sent by the administrator to the player, to be used in
 turn by the mobile application of the SotS game in the login process. The player
 only needs to scan it once with the smartphone (inside the game).
+
+ 
 
 Hope you enjoy it
 
