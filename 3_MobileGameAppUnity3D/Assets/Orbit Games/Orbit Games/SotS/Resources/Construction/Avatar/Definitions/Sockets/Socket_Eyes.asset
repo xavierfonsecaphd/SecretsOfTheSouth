@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b0464209607014080c3cbbaef27d84, type: 3}
+  m_Name: Socket_Eyes
+  m_EditorClassIdentifier: 
+  uniqueID: eyes
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: Eyes
+  holes:
+  - {fileID: 11400000, guid: 0fdb4108308b43e4f949f2b034c88c6d, type: 2}
+  - {fileID: 11400000, guid: 5e4a461f946742e4a8dd04466ad18bfe, type: 2}
+  emptyAllowed: 0

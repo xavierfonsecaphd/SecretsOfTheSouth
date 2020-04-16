@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 03b0dac13f9fb4d48a90416733a4228e
+timeCreated: 1519654898
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Meedori Sans
+  fontNames:
+  - Meedori Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 00ab8df4563c00646ab8022456f4167f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

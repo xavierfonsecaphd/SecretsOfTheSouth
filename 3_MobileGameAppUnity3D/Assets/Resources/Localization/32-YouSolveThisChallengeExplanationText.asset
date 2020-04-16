@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 32-YouSolveThisChallengeExplanationText
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: You solve this challenge by doing the required task. Once done, the evaluator
+      will mark it as solved for your team.
+  - m_Language: 9
+    m_Value: Je lost deze uitdaging op door de vereiste taak uit te voeren. Als dit
+      is gebeurd, zal de evaluator het als opgelost voor jouw team markeren.
+  - m_Language: 28
+    m_Value: "Tu resolves este desafio fazendo a tarefa pedida. Quando a resolveres,
+      o avaliador ir\xE1 marcar este desafio como resolvido."

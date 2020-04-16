@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 33-HunterPopupQuestionExplanationTipText
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: In case you cannot find a way to find the answer, there is a hidden QR
+      code nearby that solves this challenge automatically
+  - m_Language: 9
+    m_Value: Als u geen manier kunt vinden om het antwoord te vinden, is er een verborgen
+      QR-code in de buurt die deze uitdaging automatisch oplost
+  - m_Language: 28
+    m_Value: "Na eventualidade de n\xE3o conseguires encontrar a resposta, h\xE1 um
+      c\xF3digo QR escondido por perto que, quando lido, marca o desafio como feito
+      automaticamente"

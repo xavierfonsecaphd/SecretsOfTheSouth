@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SotS Colors
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: Primary Shade Main
+    m_Color: {r: 0.435, g: 0.753, b: 0.231, a: 1}
+  - m_Name: Primary Shade 1
+    m_Color: {r: 0.655, g: 0.898, b: 0.498, a: 1}
+  - m_Name: Primary Shade 2
+    m_Color: {r: 0.537, g: 0.827, b: 0.345, a: 1}
+  - m_Name: Primary Shade 3
+    m_Color: {r: 0.345, g: 0.69, b: 0.118, a: 1}
+  - m_Name: Primary Shade 4
+    m_Color: {r: 0.267, g: 0.58, b: 0.063, a: 1}
+  - m_Name: Primary Shade Deep
+    m_Color: {r: 0.14762785, g: 0.32068965, b: 0.034833554, a: 1}
+  - m_Name: Alternative color 1 shade Main
+    m_Color: {r: 0.2, g: 0.38, b: 0.557, a: 1}
+  - m_Name: Alternative color 1 shade 1
+    m_Color: {r: 0.412, g: 0.561, b: 0.702, a: 1}
+  - m_Name: Alternative color 1 shade 2
+    m_Color: {r: 0.282, g: 0.451, b: 0.612, a: 1}
+  - m_Name: Alternative color 1 shade 3
+    m_Color: {r: 0.118, g: 0.318, b: 0.51, a: 1}
+  - m_Name: Alternative color 1 shade 4
+    m_Color: {r: 0.075, g: 0.255, b: 0.427, a: 1}
+  - m_Name: Alternative color 1 shade Deep
+    m_Color: {r: 0.019679926, g: 0.107377, b: 0.19117647, a: 1}
+  - m_Name: Alternative color 2 shade Main
+    m_Color: {r: 0.855, g: 0.812, b: 0.263, a: 1}
+  - m_Name: Alternative color 2 shade 1
+    m_Color: {r: 1, g: 0.969, b: 0.557, a: 1}
+  - m_Name: Alternative color 2 shade 2
+    m_Color: {r: 0.945, g: 0.902, b: 0.396, a: 1}
+  - m_Name: Alternative color 2 shade 3
+    m_Color: {r: 0.788, g: 0.737, b: 0.137, a: 1}
+  - m_Name: Alternative color 2 shade 4
+    m_Color: {r: 0.659, g: 0.616, b: 0.071, a: 1}
+  - m_Name: Alternative color 2 shade Deep
+    m_Color: {r: 0.3689655, g: 0.3448904, b: 0.039751966, a: 1}
+  - m_Name: Complement color shade Main
+    m_Color: {r: 0.78, g: 0.239, b: 0.376, a: 1}
+  - m_Name: Complement color shade 1
+    m_Color: {r: 0.925, g: 0.514, b: 0.62, a: 1}
+  - m_Name: Complement color shade 2
+    m_Color: {r: 0.859, g: 0.361, b: 0.486, a: 1}
+  - m_Name: Complement color shade 3
+    m_Color: {r: 0.718, g: 0.122, b: 0.271, a: 1}
+  - m_Name: Complement color shade 4
+    m_Color: {r: 0.604, g: 0.063, b: 0.2, a: 1}
+  - m_Name: Complement color shade Deep
+    m_Color: {r: 0.37586206, g: 0.03920417, b: 0.12445769, a: 1}
+  - m_Name: Bonus 1 shade Main
+    m_Color: {r: 0.855, g: 0.612, b: 0.263, a: 1}
+  - m_Name: Bonus 1 shade 1
+    m_Color: {r: 1, g: 0.82, b: 0.557, a: 1}
+  - m_Name: Bonus 1 shade 2
+    m_Color: {r: 0.945, g: 0.722, b: 0.396, a: 1}
+  - m_Name: Bonus 1 shade 3
+    m_Color: {r: 0.788, g: 0.522, b: 0.137, a: 1}
+  - m_Name: Bonus 1 shade 4
+    m_Color: {r: 0.659, g: 0.42, b: 0.071, a: 1}
+  - m_Name: Bonus 1 shade Deep
+    m_Color: {r: 0.38275862, g: 0.24394326, b: 0.04123802, a: 1}
+  - m_Name: Bonus 2 shade Main
+    m_Color: {r: 0.38, g: 0.208, b: 0.58, a: 1}
+  - m_Name: Bonus 2 shade 1
+    m_Color: {r: 0.569, g: 0.427, b: 0.725, a: 1}
+  - m_Name: Bonus 2 shade 2
+    m_Color: {r: 0.455, g: 0.298, b: 0.639, a: 1}
+  - m_Name: Bonus 2 shade 3
+    m_Color: {r: 0.318, g: 0.125, b: 0.533, a: 1}
+  - m_Name: Bonus 2 shade 4
+    m_Color: {r: 0.251, g: 0.078, b: 0.447, a: 1}
+  - m_Name: Bonus 2 shade Deep
+    m_Color: {r: 0.121985674, g: 0.03790789, b: 0.21724136, a: 1}
+  - m_Name: Black
+    m_Color: {r: 0, g: 0, b: 0, a: 1}

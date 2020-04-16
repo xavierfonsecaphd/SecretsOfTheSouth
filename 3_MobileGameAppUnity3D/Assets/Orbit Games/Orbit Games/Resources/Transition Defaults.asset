@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6604017c07f60449bc47eaf92c71cb, type: 3}
+  m_Name: Transition Defaults
+  m_EditorClassIdentifier: 
+  animationSetPreset: {fileID: 11400000, guid: b4b8df6aea8777949aba9452aad618e6, type: 2}
+  inTransitionPreset: {fileID: 11400000, guid: 00665788b74372e4ea9d48e76a19917b, type: 2}
+  idleAnimationPreset: {fileID: 11400000, guid: c265c9b672c105f4f99f99654dfb9d64,
+    type: 2}
+  outTransitionPreset: {fileID: 11400000, guid: 6554a6956122e4745af6ea8974c1b6aa,
+    type: 2}
+  inTransitionCurvesPreset: {fileID: 11400000, guid: 63864867c607554438c0adf661bbfec0,
+    type: 2}
+  IdleAnimationCurvesPreset: {fileID: 11400000, guid: f2c6df6ad46980042ae8a4c56d484337,
+    type: 2}
+  outTransitionCurvesPreset: {fileID: 11400000, guid: 721413ec53f119a4f84dd57a7fa712e7,
+    type: 2}
+  animationCurvePreset: {fileID: 11400000, guid: cf5d9689585ce0c43bcaec7bdd5a9a7e,
+    type: 2}
+  animationTimeMapperPreset: {fileID: 0}

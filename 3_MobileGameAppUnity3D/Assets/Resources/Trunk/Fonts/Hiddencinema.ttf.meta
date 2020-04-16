@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f3382053e349b234eabee55d7b609323
+timeCreated: 1519654898
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hidden Cinema
+  fontNames:
+  - Hidden Cinema
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

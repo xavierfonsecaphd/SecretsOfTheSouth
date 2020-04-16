@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12928afed4dcf6f4797f343c0f62d124, type: 3}
+  m_Name: Button Transitionable
+  m_EditorClassIdentifier: 
+  preset:
+    inTransitions:
+    - presetMessage:
+        message: Custom definition is in effect
+        messageType: 2
+        display: 1
+      behaviour: 0
+      presetDefinition: {fileID: 0}
+      customDefinition:
+        errorMessage:
+          message: 
+          messageType: 0
+          display: 0
+        changeMessage:
+          message: Object is currently not at this animation's diff point. You can
+            set a new one at the object's current state, or return back to old set
+            point
+          messageType: 1
+          display: 1
+        initialized: 1
+        tag: 
+        baseDelay: 0
+        childIndexDelay: 0.2
+        duration: 0.5
+        loopType: 0
+        randomStartTime: 0
+        autoOriginOnAnimTrigger: 0
+        valueDifference:
+          isAbsolute: 0
+          isCanvasState: 1
+          active: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 0, y: 0, z: 0}
+          color: {x: 0, y: 0, z: 0, w: 0}
+          alpha: 0
+        curves: {fileID: 11400000, guid: 63864867c607554438c0adf661bbfec0, type: 2}
+        animatable: {fileID: 0}
+        fadeInIdleAtPercent: 0.8
+        playIdleTag: 
+        playIdleBehaviour: 1
+    idleAnimations:
+    - presetMessage:
+        message: Custom definition is in effect
+        messageType: 2
+        display: 1
+      behaviour: 0
+      presetDefinition: {fileID: 0}
+      customDefinition:
+        errorMessage:
+          message: 
+          messageType: 0
+          display: 0
+        changeMessage:
+          message: Object is currently not at this animation's diff point. You can
+            set a new one at the object's current state, or return back to old set
+            point
+          messageType: 1
+          display: 1
+        initialized: 1
+        tag: 
+        baseDelay: 0
+        childIndexDelay: 0
+        duration: 20
+        loopType: 1
+        randomStartTime: 1
+        autoOriginOnAnimTrigger: 0
+        valueDifference:
+          isAbsolute: 0
+          isCanvasState: 1
+          active: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 1.001, y: 1.02, z: 1.02}
+          color: {x: 0, y: 0, z: 0, w: 0}
+          alpha: 0
+        curves: {fileID: 11400000, guid: f2c6df6ad46980042ae8a4c56d484337, type: 2}
+        animatable: {fileID: 0}
+        fadeInTime: 1
+    outTransitions:
+    - presetMessage:
+        message: Custom definition is in effect
+        messageType: 2
+        display: 1
+      behaviour: 0
+      presetDefinition: {fileID: 0}
+      customDefinition:
+        errorMessage:
+          message: 
+          messageType: 0
+          display: 0
+        changeMessage:
+          message: Object is currently not at this animation's diff point. You can
+            set a new one at the object's current state, or return back to old set
+            point
+          messageType: 1
+          display: 1
+        initialized: 1
+        tag: 
+        baseDelay: 0
+        childIndexDelay: 0.2
+        duration: 0.5
+        loopType: 0
+        randomStartTime: 0
+        autoOriginOnAnimTrigger: 0
+        valueDifference:
+          isAbsolute: 0
+          isCanvasState: 1
+          active: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 0, y: 0, z: 0}
+          color: {x: 0, y: 0, z: 0, w: 0}
+          alpha: 0
+        curves: {fileID: 11400000, guid: 721413ec53f119a4f84dd57a7fa712e7, type: 2}
+        animatable: {fileID: 0}
+    initialized: 1

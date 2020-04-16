@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 24-AskOtherPlayersToJoinText
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: Ask other players to join your team, by letting them scan your QR code!
+  - m_Language: 9
+    m_Value: Vraag andere spelers om lid te worden van je team door ze je QR-code
+      te laten scannen!
+  - m_Language: 28
+    m_Value: "Convida outros jogadores a se juntar \xE0 tua equipa, ao deixar que
+      eles leiam o teu c\xF3digo QR!"

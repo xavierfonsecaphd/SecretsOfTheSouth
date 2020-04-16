@@ -1,0 +1,116 @@
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Facebook.Unity.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Facebook.Unity.Settings.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\FacebookNamedPipeClient.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Mapbox.IO.Compression.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Mapbox.Json.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Photon3Unity3D.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Advertisements.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Cloud.Analytics.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Cloud.Analytics.Util.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Purchasing.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Timeline.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\websocket-sharp.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\zxing.unity.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.Cecil.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\ExCSS.Unity.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Vuforia.UnityExtensions.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\nunit.framework.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.Timeline.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Photon3Unity3D.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Mapbox.IO.Compression.pdb
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\Mapbox.Json.pdb
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\zxing.unity.pdb
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Temp\bin\Debug\zxing.unity.xml
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\obj\Debug\Assembly-CSharp.dll
+C:\Users\Francisco Xavier\Dropbox\Secrets of the South\obj\Debug\Assembly-CSharp.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Assembly-CSharp.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Facebook.Unity.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Facebook.Unity.Settings.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\FacebookNamedPipeClient.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Mapbox.IO.Compression.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Mapbox.Json.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\nunit.framework.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Photon3Unity3D.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEditor.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Advertisements.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Cloud.Analytics.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Cloud.Analytics.Util.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.HoloLens.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Purchasing.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.UI.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Vuforia.UnityExtensions.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\websocket-sharp.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\zxing.unity.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.Cecil.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.DataContract.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\ExCSS.Unity.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.CecilTools.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEditor.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Vuforia.UnityExtensions.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.UI.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.TestRunner.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\nunit.framework.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.Timeline.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.HoloLens.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Photon3Unity3D.xml
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Mapbox.IO.Compression.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\Mapbox.Json.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\zxing.unity.pdb
+D:\SurfDrive\Secrets of the South\Temp\bin\Debug\zxing.unity.xml
+D:\SurfDrive\Secrets of the South\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\SurfDrive\Secrets of the South\obj\Debug\Assembly-CSharp.dll
+D:\SurfDrive\Secrets of the South\obj\Debug\Assembly-CSharp.pdb

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 49-WhatShallBeTheNameOfTheAuthor
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: What shall be the name of the author of this picture?
+  - m_Language: 9
+    m_Value: Wat zal de naam van de auteur van deze foto zijn?
+  - m_Language: 28
+    m_Value: "Qual \xE9 nome de autor que queres que esta foto tenha?"

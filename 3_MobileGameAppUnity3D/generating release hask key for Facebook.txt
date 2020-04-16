@@ -1,0 +1,10 @@
+ keytool -exportcert -alias ReleaseHashKey -keystore 'C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Release.keystore' | openssl sha1 -binary | openssl base64
+
+
+
+
+
+
+OR 
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using  keytool -importkeystore -srckeystore 'C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Release.keystore' -destkeystore 'C:\Users\Francisco Xavier\Dropbox\Secrets of the South\Release.keystore' -deststoretype pkcs12
+

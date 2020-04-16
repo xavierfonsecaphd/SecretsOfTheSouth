@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc26e7c828280749a6274a4d035214d, type: 3}
+  m_Name: MWS1 WiggleSlow Tiny
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0.9673268
+      outSlope: 0.9673268
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.20081538
+      value: 0.1942541
+      inSlope: 1.0141823
+      outSlope: 1.0141823
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.39633793
+      value: 0.40171093
+      inSlope: 1.0011114
+      outSlope: 1.0011114
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.60513145
+      value: 0.5982242
+      inSlope: 1.0036582
+      outSlope: 1.0036582
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.8002376
+      value: 0.80623305
+      inSlope: 1.0180594
+      outSlope: 1.0180594
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0.9699871
+      outSlope: 0.9699871
+      tangentMode: 34
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 0

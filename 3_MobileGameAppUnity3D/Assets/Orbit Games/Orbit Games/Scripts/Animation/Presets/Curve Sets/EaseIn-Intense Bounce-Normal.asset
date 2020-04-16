@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c3703f2d1447bc48abd89197c6f9104, type: 3}
+  m_Name: EaseIn-Intense Bounce-Normal
+  m_EditorClassIdentifier: 
+  propertyControl: 1
+  timeMappingControl: 0
+  vectorControl: 0
+  animateAllProperties:
+    curvePreset: {fileID: 0}
+  animateAllPropertiesWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 0}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 0}
+  animatePosition:
+    curvePreset: {fileID: 11400000, guid: 0af51e04988f03245a180e5f33505f1c, type: 2}
+  animatePositionWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 0}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 11400000, guid: a60189da9d238f742aecb9b33df8d846, type: 2}
+  animatePositionComponents:
+    xCurvePreset: {fileID: 0}
+    yCurvePreset: {fileID: 0}
+    zCurvePreset: {fileID: 0}
+  animatePositionComponentsWarpable:
+    xDurationModifier: 1
+    xTimeWarp1: {fileID: 0}
+    xTimeWarp2: {fileID: 0}
+    xCurvePreset: {fileID: 0}
+    yDurationModifier: 1
+    yTimeWarp1: {fileID: 0}
+    yTimeWarp2: {fileID: 0}
+    yCurvePreset: {fileID: 0}
+    zDurationModifier: 1
+    zTimeWarp1: {fileID: 0}
+    zTimeWarp2: {fileID: 0}
+    zCurvePreset: {fileID: 0}
+  animateRotation:
+    curvePreset: {fileID: 11400000, guid: 0af51e04988f03245a180e5f33505f1c, type: 2}
+  animateRotationWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 0}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 11400000, guid: 26b5c7ea22ec5a94fa3d06348a2a0093, type: 2}
+  animateScale:
+    curvePreset: {fileID: 11400000, guid: 9b8997909e59ef64e84d3a36bcbfcb2c, type: 2}
+  animateScaleWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 11400000, guid: fc8e7c0a3665ff245bb5eb3e5979d912, type: 2}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 11400000, guid: 0af51e04988f03245a180e5f33505f1c, type: 2}
+  animateScaleComponents:
+    xCurvePreset: {fileID: 0}
+    yCurvePreset: {fileID: 0}
+    zCurvePreset: {fileID: 0}
+  animateScaleComponentsWarpable:
+    xDurationModifier: 1
+    xTimeWarp1: {fileID: 0}
+    xTimeWarp2: {fileID: 0}
+    xCurvePreset: {fileID: 0}
+    yDurationModifier: 1
+    yTimeWarp1: {fileID: 0}
+    yTimeWarp2: {fileID: 0}
+    yCurvePreset: {fileID: 0}
+    zDurationModifier: 1
+    zTimeWarp1: {fileID: 0}
+    zTimeWarp2: {fileID: 0}
+    zCurvePreset: {fileID: 0}
+  animateColor:
+    curvePreset: {fileID: 11400000, guid: 0025d93c38a3cfc41a47c1a6a5c5cba2, type: 2}
+  animateColorWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 0}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 11400000, guid: 0af51e04988f03245a180e5f33505f1c, type: 2}
+  animateAlpha:
+    curvePreset: {fileID: 11400000, guid: 0025d93c38a3cfc41a47c1a6a5c5cba2, type: 2}
+  animateAlphaWarpable:
+    durationModifier: 1
+    timeWarp1: {fileID: 0}
+    timeWarp2: {fileID: 0}
+    curvePreset: {fileID: 11400000, guid: 0af51e04988f03245a180e5f33505f1c, type: 2}

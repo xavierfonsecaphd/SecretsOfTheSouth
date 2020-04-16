@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 51-CreateATeamFirstText
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: For you to search for Multiplayer challenges, Please create a team first
+      :)
+  - m_Language: 9
+    m_Value: Om te zoeken naar multiplayer-uitdagingen, maak eerst een team aan :)
+  - m_Language: 28
+    m_Value: Para que sejas capaz de procurar por desafios Multiplayer, por favor
+      cria uma equipa primeiro :)

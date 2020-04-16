@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ff069946ee7c1774c9c730a231e1140c
+timeCreated: 1519654898
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: AXR Airpena Free Version
+  fontNames:
+  - AXR Airpena Free Version
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

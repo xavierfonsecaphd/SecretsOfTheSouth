@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 1-AboutDescription
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: "Secrets of the South is a serious game that is part of research done
+      at TU Delft. The goal of this game is to prime social interaction in your neighbourhood.
+      \r\n\r\nIn this game, you earn points by solving challenges around you, and
+      by collecting other players' cards. You can make friends while collecting other
+      players cards and solving challenges together, and also engage with strangers
+      and become more engaged with your neighbourhood.\r\n\r\nTo know more, please
+      visit\r\n"
+  - m_Language: 9
+    m_Value: 'Secrets of the South is een serious game die deel uitmaakt van onderzoek
+      aan de TU Delft. Het doel van dit spel is om sociale interactie in uw buurt
+      te stimuleren.
+
+
+      In dit spel verdien je punten door uitdagingen om je heen op te lossen en door
+      kaarten van andere spelers te verzamelen. Je kunt vrienden maken door kaarten
+      van andere spelers te verzamelen en samen uitdagingen op te lossen, en ook met
+      vreemden om te gaan en meer betrokken te raken bij je buurt.
+
+
+      Ga naar voor meer informatie'
+  - m_Language: 28
+    m_Value: "Secrets of the South \xE9 um jogo com um prop\xF3sito s\xE9rio e faz
+      parte duma investiga\xE7\xE3o a decorrer na TU Delft, Holanda. O prop\xF3sito
+      deste jogo \xE9 o de fomentar intera\xE7\xE3o social no teu bairro.\n\nNeste
+      jogo, tu ganhas pontos ao resolver desafios que est\xE3o \xE0 tua volta, e ao
+      coleccionar cartas de outros jogadores. Podes fazer amigos enquanto coleccionas
+      as cartas de outros jogadores e resolves os desafios junto com eles, e tamb\xE9m
+      conseguir\xE1s ter oportunidades para falar com desconhecidos e te tornar mais
+      envolvido no teu bairro.\n\nPara saberes mais, podes visitar a p\xE1gina"

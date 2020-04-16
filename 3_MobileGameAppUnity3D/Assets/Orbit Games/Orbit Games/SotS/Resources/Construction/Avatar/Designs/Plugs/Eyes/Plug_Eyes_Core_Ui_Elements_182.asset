@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06cdbe4ab94d90f469c820ac6da280ad, type: 3}
+  m_Name: Plug_Eyes_Core_Ui_Elements_182
+  m_EditorClassIdentifier: 
+  uniqueID: core ui elements_182
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: Core Ui Elements 182
+  forSocket: {fileID: 11400000, guid: b3299ad4cc48d524b8641f9635caf849, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 71-EvaluateTeamNote
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: "Note: when evaluating, you should finish the process in one go, \notherwise
+      you have to start anew."
+  - m_Language: 9
+    m_Value: "Opmerking: wanneer u evalueert, moet u het proces in \xE9\xE9n keer
+      afmaken,\nanders moet je opnieuw beginnen."
+  - m_Language: 28
+    m_Value: "Nota: Deves de fazer o processo de avalia\xE7\xE3o duma s\xF3 vez, caso
+      contr\xE1rio tens de recome\xE7ar de novo."

@@ -1,0 +1,1225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d86e9b40e6d34d89731a9be327707, type: 3}
+  m_Name: R+ RandomFlips-Constant MinDiff-0.5
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.0012594458
+      value: 0.49937057
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.0025188916
+      value: 0.15762295
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.005037783
+      value: 0.48295993
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.007556675
+      value: 0.089907415
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.010075566
+      value: 0.36258656
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.012594459
+      value: 0.0056453426
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.01511335
+      value: 0.86210674
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.017632242
+      value: 0.34421095
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.020151133
+      value: 0.85889757
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.022670025
+      value: 0.018278146
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.025188917
+      value: 0.5320014
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.027707808
+      value: 0.20267949
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.0302267
+      value: 0.5858879
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.032745592
+      value: 0.19971474
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.035264485
+      value: 0.8516114
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.037783377
+      value: 0.20132674
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.040302265
+      value: 0.60927
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.042821158
+      value: 0.28207555
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.04534005
+      value: 0.6585859
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.047858942
+      value: 0.34788018
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.050377835
+      value: 0.77026373
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.052896727
+      value: 0.36456284
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.055415615
+      value: 0.9061593
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.057934508
+      value: 0.26275134
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.0604534
+      value: 0.7381244
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.06297229
+      value: 0.45092416
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.065491185
+      value: 0.7260264
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.06801008
+      value: 0.142082
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.07052897
+      value: 0.7584515
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.07304786
+      value: 0.16271041
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.075566754
+      value: 0.46742728
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.078085646
+      value: 0.18984331
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.08060453
+      value: 0.56555796
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.08312342
+      value: 0.28975132
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.085642315
+      value: 0.7098426
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.08816121
+      value: 0.08305002
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.0906801
+      value: 0.4430919
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.09319899
+      value: 0.09108746
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.095717885
+      value: 0.8445186
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.09823678
+      value: 0.20051305
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.10075567
+      value: 0.96123016
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.10327456
+      value: 0.37253794
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.105793454
+      value: 0.96843994
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.108312346
+      value: 0.21879674
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.11083123
+      value: 0.9122317
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.11335012
+      value: 0.2069356
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.115869015
+      value: 0.8383231
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.11838791
+      value: 0.16339296
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.1209068
+      value: 0.617393
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.12342569
+      value: 0.3692561
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.12594458
+      value: 0.64612556
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.12846348
+      value: 0.060156967
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.13098237
+      value: 0.83303547
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.13350126
+      value: 0.07789917
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.13602015
+      value: 0.41437954
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.13853905
+      value: 0.078531064
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.14105794
+      value: 0.5580391
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.14357683
+      value: 0.2755365
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.14609572
+      value: 0.5390877
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.14861462
+      value: 0.109310195
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.15113351
+      value: 0.7961799
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.1536524
+      value: 0.24412887
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.15617129
+      value: 0.64028114
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.15869017
+      value: 0.20782612
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.16120906
+      value: 0.65069604
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.16372795
+      value: 0.23866668
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.16624685
+      value: 0.67238396
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.16876574
+      value: 0.3714979
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.17128463
+      value: 0.6693653
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.17380352
+      value: 0.24260049
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.17632242
+      value: 0.8821083
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.17884131
+      value: 0.07455883
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.1813602
+      value: 0.38266975
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.18387909
+      value: 0.094229884
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.18639798
+      value: 0.5693558
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.18891688
+      value: 0.30910298
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.19143577
+      value: 0.6925717
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.19395466
+      value: 0.149076
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.19647355
+      value: 0.71929944
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.19899245
+      value: 0.30592695
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.20151134
+      value: 0.7460725
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.20403023
+      value: 0.22850552
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.20654912
+      value: 0.8995701
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.20906802
+      value: 0.30821675
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.21158691
+      value: 0.57405436
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.2141058
+      value: 0.29828197
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.21662469
+      value: 0.6135919
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.21914357
+      value: 0.31617546
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.22166246
+      value: 0.8390044
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.22418135
+      value: 0.43146014
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.22670025
+      value: 0.7238059
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.22921914
+      value: 0.108429246
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.23173803
+      value: 0.4820689
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.23425692
+      value: 0.0569079
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.23677582
+      value: 0.53145087
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.23929471
+      value: 0.096643426
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.2418136
+      value: 0.81336707
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.24433249
+      value: 0.3033415
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.24685138
+      value: 0.91902393
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.24937028
+      value: 0.5307229
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.25188917
+      value: 0.87908643
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.25440806
+      value: 0.17171301
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.25692695
+      value: 0.76217777
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.25944585
+      value: 0.17666641
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.26196474
+      value: 0.8375831
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.26448363
+      value: 0.48157614
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.26700252
+      value: 0.8978212
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.26952142
+      value: 0.20574443
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.2720403
+      value: 0.857575
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.2745592
+      value: 0.12659778
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.2770781
+      value: 0.7920758
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.27959698
+      value: 0.34629676
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.28211588
+      value: 0.8612429
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.28463477
+      value: 0.4506466
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.28715366
+      value: 0.8508507
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.28967255
+      value: 0.2624144
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.29219145
+      value: 0.7765502
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.29471034
+      value: 0.26169756
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.29722923
+      value: 0.74529755
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.29974812
+      value: 0.4768051
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.30226701
+      value: 0.883358
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3047859
+      value: 0.46273008
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3073048
+      value: 0.8850868
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3098237
+      value: 0.6147884
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.31234258
+      value: 0.88224685
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.31486145
+      value: 0.20010175
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.31738034
+      value: 0.6494448
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.31989923
+      value: 0.37306207
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.32241812
+      value: 0.7332381
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.32493702
+      value: 0.29669017
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3274559
+      value: 0.69539773
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3299748
+      value: 0.059675004
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3324937
+      value: 0.55982095
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.33501258
+      value: 0.21865045
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.33753148
+      value: 0.8672626
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.34005037
+      value: 0.33610716
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.34256926
+      value: 0.5948424
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.34508815
+      value: 0.13810626
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.34760705
+      value: 0.81107837
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.35012594
+      value: 0.36627442
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.35264483
+      value: 0.92238575
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.35516372
+      value: 0.21910226
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.35768262
+      value: 0.7693288
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3602015
+      value: 0.30106243
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3627204
+      value: 0.57573456
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3652393
+      value: 0.19877627
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.36775818
+      value: 0.77274305
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.37027708
+      value: 0.08869372
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.37279597
+      value: 0.5397826
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.37531486
+      value: 0.27093345
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.37783375
+      value: 0.8922916
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.38035265
+      value: 0.60794693
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.38287154
+      value: 0.9389032
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.38539043
+      value: 0.62616163
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.38790932
+      value: 0.8788117
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.39042822
+      value: 0.1441055
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3929471
+      value: 0.64563364
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.395466
+      value: 0.15250765
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.3979849
+      value: 0.73656553
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.40050378
+      value: 0.19500923
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.40302268
+      value: 0.66162866
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.40554157
+      value: 0.037707154
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.40806046
+      value: 0.33225527
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.41057935
+      value: 0.03717758
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.41309825
+      value: 0.53938043
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.41561714
+      value: 0.055844195
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.41813603
+      value: 0.95706135
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.42065492
+      value: 0.47796476
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.42317382
+      value: 0.8644636
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4256927
+      value: 0.43944287
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4282116
+      value: 0.9060631
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4307305
+      value: 0.62146574
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.43324938
+      value: 0.9219163
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.43576828
+      value: 0.4221407
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.43828714
+      value: 0.81461066
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.44080603
+      value: 0.24098288
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.44332492
+      value: 0.9612504
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.44584382
+      value: 0.5180654
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4483627
+      value: 0.94862175
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4508816
+      value: 0.2966009
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4534005
+      value: 0.65571094
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.45591938
+      value: 0.19712058
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.45843828
+      value: 0.7097899
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.46095717
+      value: 0.27185997
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.46347606
+      value: 0.5632483
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.46599495
+      value: 0.2162882
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.46851385
+      value: 0.80869156
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.47103274
+      value: 0.03353829
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.47355163
+      value: 0.778597
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.47607052
+      value: 0.10235951
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.47858942
+      value: 0.68482447
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4811083
+      value: 0.32520416
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4836272
+      value: 0.8181957
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.4861461
+      value: 0.015934272
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.48866498
+      value: 0.31711185
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.49118388
+      value: 0.015331588
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.49370277
+      value: 0.49459428
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.49622166
+      value: 0.21423203
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.49874055
+      value: 0.82398564
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    - serializedVersion: 2
+      time: 0.5
+      value: 0.82398564
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+    m_PreInfinity: 0
+    m_PostInfinity: 0
+    m_RotationOrder: 0
+  timestamps: 200
+  minY: -1
+  maxY: 1
+  minValueDifference: 0.5
+  timeJiggle: 0
+  alternateDirection: 1

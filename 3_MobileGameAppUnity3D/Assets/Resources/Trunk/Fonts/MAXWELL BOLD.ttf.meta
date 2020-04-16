@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 88538e9616b68d34592d43ef3a87b4b7
+timeCreated: 1519654898
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MAXWELL BOLD
+  fontNames:
+  - MAXWELL BOLD
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

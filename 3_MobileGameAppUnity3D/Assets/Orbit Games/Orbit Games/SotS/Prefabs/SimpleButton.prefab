@@ -1,0 +1,770 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1675106775445854}
+  m_IsPrefabParent: 1
+--- !u!1 &1248495680806686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224437349933900364}
+  - component: {fileID: 222092406711148688}
+  - component: {fileID: 114777410125003826}
+  - component: {fileID: 114344281348513004}
+  - component: {fileID: 114550274317345490}
+  - component: {fileID: 114555970273186272}
+  - component: {fileID: 114808005271361090}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1515415182076666
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224438017582110436}
+  - component: {fileID: 222088286018918632}
+  - component: {fileID: 114383143314029872}
+  - component: {fileID: 114412195526924228}
+  m_Layer: 5
+  m_Name: TextMeshPro text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1675106775445854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224144636785355150}
+  - component: {fileID: 114333021420911102}
+  m_Layer: 5
+  m_Name: SimpleButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1997311073067678
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224279625361661200}
+  - component: {fileID: 222172927883657454}
+  - component: {fileID: 114560494557931964}
+  - component: {fileID: 114325881586705372}
+  m_Layer: 5
+  m_Name: Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114325881586705372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997311073067678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &114333021420911102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1675106775445854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb72ec0618ae4143a130907b81c1c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpBox:
+    message: No on click event is registered in inspector.
+    messageType: 2
+    display: 1
+  localizedText:
+    LocalizedAsset: {fileID: 0}
+    FormatArgs: []
+  icon: {fileID: 21300154, guid: 1cefb006aefe6dd4aba189b15e0b17cf, type: 3}
+  buttonColor: {r: 0.718, g: 0.122, b: 0.271, a: 1}
+  onClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  buttonBarField: {fileID: 114777410125003826}
+  iconField: {fileID: 114560494557931964}
+  localizedTextField: {fileID: 114412195526924228}
+--- !u!114 &114344281348513004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+    m_PressedColor: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
+    m_DisabledColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 0.3764706}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114777410125003826}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114333021420911102}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114383143314029872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515415182076666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5960a7e2651723c4bb1686cb6afb8e59, type: 2}
+  m_sharedMaterial: {fileID: 21168020513831358, guid: 5960a7e2651723c4bb1686cb6afb8e59,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4287559679
+  m_fontColor: {r: 1, g: 0.969, b: 0.557, a: 1}
+  m_enableVertexGradient: 0
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 513
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 114383143314029872}
+    characterCount: 6
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 0
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &114412195526924228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515415182076666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725bf5ddb878f09429d39010d9e2d59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Component: {fileID: 114383143314029872}
+  m_Property: text
+  m_LocalizedAsset: {fileID: 0}
+  m_FormatArgs: []
+--- !u!114 &114550274317345490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 80
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 8
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+--- !u!114 &114555970273186272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114777410125003826}
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300280, guid: 1cefb006aefe6dd4aba189b15e0b17cf,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114777410125003826}
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300268, guid: 1cefb006aefe6dd4aba189b15e0b17cf,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114777410125003826}
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300268, guid: 1cefb006aefe6dd4aba189b15e0b17cf,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114560494557931964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997311073067678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.969, b: 0.557, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300030, guid: 1cefb006aefe6dd4aba189b15e0b17cf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114777410125003826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.718, g: 0.122, b: 0.271, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300268, guid: 1cefb006aefe6dd4aba189b15e0b17cf, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114808005271361090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095e11ff97bede34b84fd1cffe6709a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage:
+    message: 
+    messageType: 0
+    display: 0
+  unscaledTime: 0
+  stopAnimationsOnDisable: 1
+  startDisabled: 0
+  endDisabled: 0
+  endInPool: 0
+  animationTargets:
+    gameObject: {fileID: 1248495680806686}
+    transform: {fileID: 224437349933900364}
+    image: {fileID: 114777410125003826}
+    canvasGroup: {fileID: 0}
+  animatedProperties:
+    active: 0
+    position:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    scale:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+    color: 0
+    alpha: 0
+  origin:
+    isAbsolute: 1
+    isCanvasState: 1
+    active: 1
+    position: {x: 270, y: -40, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+    color: {x: 0, y: 0, z: 0, w: 0}
+    alpha: 1
+  originDefined: 1
+  activeTag: 
+  originalGameObject: {fileID: 1248495680806686}
+  activePhase: 0
+  phaseBehaviour: 1
+  onEnableTag: 
+  onEnableDo: 1
+  Animations:
+    presetMessage:
+      message: PRESET is in efect
+      messageType: 1
+      display: 1
+    behaviour: 0
+    presetDefinition: {fileID: 11400000, guid: 24fb5c98455f10b46ab76b450c25b3ac, type: 2}
+    customDefinition:
+      inTransitions:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0.2
+          duration: 0.5
+          loopType: 0
+          randomStartTime: 0
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+            scale: {x: 0, y: 0, z: 0}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: 63864867c607554438c0adf661bbfec0, type: 2}
+          animatable: {fileID: 114808005271361090}
+          fadeInIdleAtPercent: 0.8
+          playIdleTag: 
+          playIdleBehaviour: 1
+      idleAnimations:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0
+          duration: 20
+          loopType: 1
+          randomStartTime: 1
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+            scale: {x: 1.001, y: 1.02, z: 1.02}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: f2c6df6ad46980042ae8a4c56d484337, type: 2}
+          animatable: {fileID: 114808005271361090}
+          fadeInTime: 1
+      outTransitions:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0.2
+          duration: 0.5
+          loopType: 0
+          randomStartTime: 0
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+            scale: {x: 0, y: 0, z: 0}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: 721413ec53f119a4f84dd57a7fa712e7, type: 2}
+          animatable: {fileID: 114808005271361090}
+      initialized: 1
+  events:
+    onTransitionInStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionInEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onIdleAnimationStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onIdleAnimationEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionOutStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionOutEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  todoBox:
+    message: "####### TODO ####### \n- Add prefix tag\n- Let animations run stackwise\n-
+      Transition calling from script\n- Allow playing audio as well\n"
+    messageType: 1
+    display: 1
+--- !u!222 &222088286018918632
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515415182076666}
+--- !u!222 &222092406711148688
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+--- !u!222 &222172927883657454
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997311073067678}
+--- !u!224 &224144636785355150
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1675106775445854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224437349933900364}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -912.319}
+  m_SizeDelta: {x: 500, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224279625361661200
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997311073067678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224437349933900364}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 33.505768, y: -0.00000071525574}
+  m_SizeDelta: {x: 36, y: 36}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224437349933900364
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248495680806686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224438017582110436}
+  - {fileID: 224279625361661200}
+  m_Father: {fileID: 224144636785355150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224438017582110436
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515415182076666}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224437349933900364}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}

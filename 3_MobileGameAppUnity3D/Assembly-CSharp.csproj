@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D494FD29-9341-8B57-9D52-7BB3A66C32CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_14;UNITY_2017_4;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\0 - Loading Screen\ConcurrentQueue.cs.cs" />
+     <Compile Include="Assets\0 - Loading Screen\MasterManager.cs" />
+     <Compile Include="Assets\0 - Loading Screen\SotSPlayerInfo.cs" />
+     <Compile Include="Assets\1 - InitialMenu\DisplayManager_Menu_Scene_1.cs" />
+     <Compile Include="Assets\1 - InitialMenu\LoginMenuManager.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.1 - Quiz Challenges\DisplayManager_FeedBack_QuizWindow_Scene_2.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.1 - Quiz Challenges\Quiz_ModalWindow.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.2 - AR Challenges\AR_ModalWindow.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.3 - Multiplayer Challenges\Multiplayer_ModalWindow.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.4 - Hunter Challenges\DisplayManager_FeedBack_HunterWindow_Scene_2.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.4 - Hunter Challenges\Hunter_ModalWindow.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.4 - Hunter Challenges\Hunter_window_manager.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\DisplayManager_FeedBack_VotingWindow_Scene_2.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\ManageVotingChallenge.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\PictureDataToVote.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\Voting_window_manager.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\VotingChallengeDBMeteorFormat_JSON.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\VotingChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.5 - Voting Challenges\VotingChallengeInfo.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\DisplayManager_FeedBack_TimedTaskWindow_Scene_2.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\ManageTimedTaskChallenge.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\TimedTask_window_manager.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\TimedTaskChallengeDBMeteorFormat_JSON.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\TimedTaskChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.6 - TimedTask Challenges\TimedTaskChallengeInfo.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.7 - OpenQuiz Challenges\DisplayManager_FeedBack_OpenQuizWindow_Scene_2.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.7 - OpenQuiz Challenges\ManageOpenQuizChallenge.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.7 - OpenQuiz Challenges\OpenQuizChallengeDBMeteorFormat_JSON.cs" />
+     <Compile Include="Assets\2 - Game Play\2.1 - Window_Challenges\2.1.7 - OpenQuiz Challenges\OpenQuizChallengeInfo.cs" />
+     <Compile Include="Assets\2 - Game Play\GameManager.cs" />
+     <Compile Include="Assets\2 - Game Play\MenuSlide.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Challenges\Challenge_ARData.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Challenges\Challenge_QuizData.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Challenges\ChallengeData.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Challenges\ChallengeDBFormat_JSON.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Challenges\ChallengeInfo.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\GPSLocationProvider_Xavier.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\MapGenerator.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\MyAbstractMap.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\MyBasicMap.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\PlayerController.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\PlayerStatisticsServer.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\CameraController.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\CollectableItemRotation.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\CompassAutoRotation.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\DisplayManager.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\DisplayManager_Menu_Scene_4.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\HandleButtonContinuouslyPressed.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\HandleTouchedObject.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\ModalWindowManager.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\Scripts to Manage UI Elements\MyCameraMovement.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Game Manager\UpdateTextCoordinates.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Login Handlers\FacebookHandler.cs" />
+     <Compile Include="Assets\2 - Game Play\Player Navigation\My Resources\Scripts\Login Handlers\SotSHandler.cs" />
+     <Compile Include="Assets\3 - Challenges Menu\ChallengesCanvasMenuManager.cs" />
+     <Compile Include="Assets\3 - Challenges Menu\Scripts\ChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\3 - Challenges Menu\Scripts\ChallengeIconModalPanel.cs" />
+     <Compile Include="Assets\3 - Challenges Menu\Scripts\ChallengesMenuManager.cs" />
+     <Compile Include="Assets\3 - Challenges Menu\Scripts\Trunk\CompassIconRotation.cs" />
+     <Compile Include="Assets\4 - Menu of the Game\4.0 - Settings\SettingsPanel.cs" />
+     <Compile Include="Assets\4 - Menu of the Game\4.1 - Player\LeaderboardPlayerInfo.cs" />
+     <Compile Include="Assets\4 - Menu of the Game\MenuManager.cs" />
+     <Compile Include="Assets\4.1 - Server\JSON_TitleData_Challenge.cs" />
+     <Compile Include="Assets\5 - QR wallet Level\DisplayManager_Menu_Scene_5.cs" />
+     <Compile Include="Assets\5 - QR wallet Level\HandlePersonMetPlayFab.cs" />
+     <Compile Include="Assets\5 - QR wallet Level\JSON_HandlePeopleMet.cs" />
+     <Compile Include="Assets\5 - QR wallet Level\JSON_TitleData_RegisteredPlayerStatisticsUpdate.cs" />
+     <Compile Include="Assets\5 - QR wallet Level\QRCodeManager.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\AdministratorToolsMenuManager.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\DisplayManager_Menu_Scene_6.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\EvaluatorRating.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\GenerateTeamRanking.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\GenericChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\HunterChallengeDBMeteorFormat_JSON.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\HunterChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\HunterChallengeInfo.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\MultiplayerChallengeDBMeteorFormat_JSON.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\MultiplayerChallengeIconGUIScript.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\MultiplayerChallengeInfo.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\PermissionsListIcon.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\TeamMenuManager.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\TeamRankIcon.cs" />
+     <Compile Include="Assets\6 - Multiplayer, Teams, Rankings\TeamsRankingsJSON.cs" />
+     <Compile Include="Assets\6 - QR Reader\Hunter_window_QRFound_manager.cs" />
+     <Compile Include="Assets\6 - QR Reader\QR_Codify.cs" />
+     <Compile Include="Assets\6 - QR Reader\QRReaderManager.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoAsteroidScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScript3DOrbit.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptComponent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptDimmingView.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptDPad.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptDragSwipe.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptDynamicGrid.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptImage.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptJoystick.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptMoveFire.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptMultiDrag.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptMultiFingerTap.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptOneFinger.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptPan.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptPlatformSpecificView.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptRaycast.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptSwipe.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptTapAndDoubleTap.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptZoomableScrollView.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Demo\Scripts\DemoScriptZoomPanCamera.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersCrossPlatformInputReflectionScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersDragDropComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersFirstPersonControllerScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersImageGestureHelperComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersJoystickAnywhereComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersMultiDragComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersPanOrbitComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersPanRotateScaleComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersPlatformMoveJumpComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersRotateOrbitComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersScrollViewComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersThirdPersonControllerScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\FingersZoomPanCameraComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\GestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\ImageGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\LongPressGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\OneTouchRotateGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\OneTouchScaleGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\PanGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\RotateGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\ScaleGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\SwipeGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Components\TapGestureRecognizerComponentScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Controls\FingersDPadScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Controls\FingersImageAutomationScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Controls\FingersJoystickScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\FingersScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\DeviceInfo.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\GestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\ImageGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\LongPressGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\OneTouchRotateGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\OneTouchScaleGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\PanGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\RotateGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\ScaleGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\SwipeGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Gestures\TapGestureRecognizer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Other\FingersUtilityMethodsScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Examples\Scripts\LocalizationDropdown.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocaleItem.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocaleItemBase.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\Localization.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizationSettings.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedAsset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedAssetBase.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedAssetBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedAudioClip.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedAudioClipBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedFont.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedFontBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedGenericAssetBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedGenericAssetBehaviourBase.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedMaterialBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedPrefab.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedPrefabBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedRendererBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedSprite.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedSpriteBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedText.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedTextAsset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedTextAssetBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedTextBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedTexture.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\LocalizedTextureBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\Utilities\GoogleTranslateRequest.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\Utilities\GoogleTranslateResponse.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\GameToolkit\Localization\Scripts\Utilities\GoogleTranslator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Demo\ImageWarpDemo.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\BezierCurve.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\ImageWarp.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\IWarp.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\NativeImageWarp.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\NativeTextureRenderer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\RawImageWarp.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\WarpHelper.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\Image Warp\Scripts\WarpManager.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Animation Types\IOGStateAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Animation Types\OGRegularAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Animation Types\OGStateAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Image\OGImageAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\IOGAnimatable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimatable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationExtensions.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationLerpState.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationMask.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationState.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationTargets.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimationTask.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGAnimator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGBaseAnimatableBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGFlasher.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGLoopType.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\OGRegularAnimations.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGAnimationCurvePreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGAnimationCurvesPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGAnimationTimeMapperPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGIdleAnimationPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGRegularAnimationPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGRegularAnimationsPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGTransitionableAnimationsPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGTransitionInPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Presets\OGTransitionOutPreset.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGIdleAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransitionable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransitionableAnimations.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransitionableDefaults.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransitionInAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Animation\Transitions\OGTransitionOutAnimation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Backwards Compatibility\Tuple.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Backwards Compatibility\Tuple2.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Backwards Compatibility\Tuple3.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Backwards Compatibility\Tuple4.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Color\HSLColor.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Color\HSVColor.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Color\LABColor.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Color\OGColorExtension.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Color\OGColors.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\Dimension.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGAdjustablePosition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGAdjustableRotation.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGAdjustableScale.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGBaseAdjustableDimension.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGBaseAdjustableElement.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGBaseAdjustableValue.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Adjustables\OGBaseSlidableElement.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\IOGDefined.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGConnectable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGFeature.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGFeatureDetail.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGPlug.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGPlugPin.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGSocket.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Behaviours\OGSocketHole.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\ConstructionHelper.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGAdjustableDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGBaseDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGBaseVariableDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGBooleanVariableDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGColorVariableDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGFeatureDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGFeatureDesign.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGFeatureDetailDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGPlugDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGSocketDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGSocketHoleDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Defnitions\OGStringVariableDefinition.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGBaseConstructionObject.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGConstructionManager.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGConstructionPlan.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGConstructionVariables.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGConstructor.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\OGConstructorMenuCommands.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Variables\OGBaseVariable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Variables\OGBooleanVariable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Variables\OGColorVariable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Constructor\Variables\OGStringVariable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Editor Coroutines\OGEditorCoroutines.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Editor Coroutines\OGTestEditorCoroutine.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Editor Coroutines\WaitForEditorSeconds.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\BoolEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\ColorEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\ComponentEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\FloatEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\GameObjectEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\IntEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\StringEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\TransformEvent.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\Vector2Event.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\Vector3Event.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Events\Vector4Event.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Fingers\OGFingers.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormBaseElementBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormBaseElementGeneric.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormBaseGroup.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormButton.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormCheckboxes.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormCheckboxOption.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormDropdown.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormDropdownOption.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormGroup.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormHeader.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormMetaSettings.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormPlainText.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormRadioButtonOption.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormRadioButtons.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormRichTextArea.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormTextArea.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormTextField.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\Elements\OGFormTitle.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\OGForm.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Forms\OGFormManager.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Image Effects\OGImageEffect.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\ButtonsAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\ButtonsContainer.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\ConditionalFieldAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\DynamicButtonsAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\EditorHelpBox.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\EnumButtonsAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\HeightAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\MinMaxAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\QuickEditButtonsAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\SortingLayerAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Inspector\UnitAttribute.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\IOGInitializable.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Line\OGConnectingLine.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Line\OGConnectingWarpedLine.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Loading\OGLoading.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Loading\OGLoadingOverlay.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Localization\OGFormattedLocalizedText.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Localization\OGLocalization.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGBaseMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGPositionMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGRectSizeMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGRotationMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGScaleMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Mutations\OGZRotationMutator.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGCompression.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGEditorExtensions.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGEmpty.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGExtensions.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGInput.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGListPool.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGObjectPool.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGPresetOrCustom.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGPresetScriptableObject.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGResources.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGSubcanvasSortingHelper.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGSystem.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\OGUtils.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Pool\OGPool.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Popup\OGPopup.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Popup\OGPopupWindow.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RawImageWarpSprite.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RichText\OGRichText.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RichText\OGRichTextInputCatcher.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RichText\OGRichTextInputField.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RichText\OGRichTextInputFieldSetup.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\RichText\OGRichtText2.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Run\IOGBaseTask.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Run\OGRun.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Run\OGTask.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Singleton\OGSingletonBehaviour.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\ValueMapper.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\Scripts\Vector3Mask.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\SotS\Scripts\CardGeneration.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\SotS\Scripts\MapCameraController.cs" />
+     <Compile Include="Assets\Orbit Games\Orbit Games\SotS\Scripts\SimpleButton.cs" />
+     <Compile Include="Assets\Orbit Games\test.cs" />
+     <Compile Include="Assets\Resources\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Resources\Trunk\Scripts\TiltWindow.cs" />
+     <None Include="Assets\Orbit Games\Orbit Games\Shaders\UI\Cartoon\Displacement Shader.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Resources\Rocks and Boulders 2\Shaders\shader info.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Shaders\UI\Animated Pattern.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\ChangeLog.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\Trunk\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Resources\Trunk\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Resources\Trunk\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Resources\Mapbox\MapboxConfiguration.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\Resources\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Readme.txt" />
+     <None Include="Assets\Orbit Games\Orbit Games\Extensions\Fingers\Prefab\Script\Other\XamarinAndroidTouchAdapter.txt" />
+     <None Include="Assets\Resources\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WebModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.4.14f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics.Util">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Gameroom">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookNamedPipeClient">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="zxing.unity">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/QR Code Zxing/zxing.unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.Json">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.IO.Compression">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Plugins/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Editor">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Orbit Games/Orbit Games/Extensions/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-Runtime">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Orbit Games/Orbit Games/Extensions/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonSubTypes">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Orbit Games/Orbit Games/Extensions/NET 3.5/JsonSubTypes.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/Xavier/Desktop/SotS Game Framework/3_MobileGameAppUnity3D/Assets/Orbit Games/Orbit Games/Extensions/NET 3.5/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/Xavier/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/Xavier/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/Xavier/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{49CA0B26-5C34-E675-F789-18A49CE972C1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

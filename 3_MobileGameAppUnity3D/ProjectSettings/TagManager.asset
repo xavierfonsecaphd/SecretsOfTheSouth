@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Challenge
+  - ClosedChessChallenge
+  - ChallengeIcon
+  - ChallengeIconImage
+  - CompassIconContainer
+  - MultiplayerChallenge
+  - HunterChallenge
+  - HunterChallengeSolved
+  - ItemToEliminate
+  - VotingChallenge
+  - VotingChallengeSolved
+  - NumberOfVotes
+  - AverageRating
+  - TimedTaskChallenge
+  - TimedTaskChallengeSolved
+  - OpenQuizChallenge
+  - OpenQuizChallengeSolved
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Play Scene
+    uniqueID: 1896768759
+    locked: 0
+  - name: Main Menu
+    uniqueID: 2530224829
+    locked: 0

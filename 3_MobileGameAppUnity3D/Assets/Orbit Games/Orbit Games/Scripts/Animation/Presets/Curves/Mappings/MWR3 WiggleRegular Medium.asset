@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc26e7c828280749a6274a4d035214d, type: 3}
+  m_Name: MWR3 WiggleRegular Medium
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1.140025
+      outSlope: 1.140025
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.0942607
+      value: 0.10745955
+      inSlope: 0.9059447
+      outSlope: 0.9059447
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.20311649
+      value: 0.18059587
+      inSlope: 1.0530933
+      outSlope: 1.0530933
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.29189494
+      value: 0.3079328
+      inSlope: 1.0777946
+      outSlope: 1.0777946
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.4061731
+      value: 0.39035782
+      inSlope: 1.0896487
+      outSlope: 1.0896487
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.48470885
+      value: 0.50486535
+      inSlope: 1.0734261
+      outSlope: 1.0734261
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.60328585
+      value: 0.58654374
+      inSlope: 0.9663
+      outSlope: 0.9663
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.69547
+      value: 0.70120037
+      inSlope: 1.0195282
+      outSlope: 1.0195282
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.80294126
+      value: 0.7866699
+      inSlope: 1.0811279
+      outSlope: 1.0811279
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.89695615
+      value: 0.91518617
+      inSlope: 1.0950313
+      outSlope: 1.0950313
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0.82308483
+      outSlope: 0.82308483
+      tangentMode: 34
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: 8-LoginExplanationText
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: This game is meant for research purposes, and is controlled by a login
+      system. The login account is created per request. If you do not have an account,
+      you can access this page and request an account to the head researcher (at the
+      bottom of the page).
+  - m_Language: 9
+    m_Value: Deze game is bedoeld voor onderzoeksdoeleinden en wordt bestuurd door
+      een inlogsysteem. Het login-account wordt per aanvraag aangemaakt. Als u geen
+      account hebt, kunt u deze pagina openen en een account aanvragen bij de hoofdonderzoeker
+      (onder aan de pagina).
+  - m_Language: 28
+    m_Value: "Este jogo est\xE1 pensado para fins de investiga\xE7\xE3o, e \xE9 controlado
+      por um sistema de login. Cada conta de login \xE9 criada a pedido. Se tu n\xE3o
+      tens uma conta de login, podes visitar esta p\xE1gina e pedir uma conta ao respons\xE1vel
+      pela investiga\xE7\xE3o (designado no fundo da p\xE1gina)."

@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1321955700903818}
+  m_IsPrefabParent: 1
+--- !u!1 &1189196275770702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224869476921521584}
+  - component: {fileID: 114580332234450962}
+  - component: {fileID: 114933821877276672}
+  m_Layer: 0
+  m_Name: . HOLE Card Avatar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1321955700903818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224492745891916498}
+  - component: {fileID: 114209497929007098}
+  - component: {fileID: 114825034117217210}
+  - component: {fileID: 114928767318230806}
+  m_Layer: 5
+  m_Name: CARD GENERATOR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114209497929007098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321955700903818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f2323e89761943b5e96cd05421f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textColorDefinition: {fileID: 11400000, guid: d03c2f78ef5ac564fb189905b008c2e6,
+    type: 2}
+  textColor: {r: 1, g: 0.969, b: 0.557, a: 1}
+  cardsCollected: {fileID: 11400000, guid: 4f1cf628b4a568d43ab47bbac9bf67cc, type: 2}
+  challengesComplete: {fileID: 11400000, guid: 42d259571a0eed34ba5a26cb84b05deb, type: 2}
+  coinsCollected: {fileID: 11400000, guid: 5cd460ba054a9f640b624a0caf507609, type: 2}
+  coinsFromCards: {fileID: 11400000, guid: 2b6df496dcdbdaa40adaacfaf36d3464, type: 2}
+  coinsFromChallenges: {fileID: 11400000, guid: 25d460e263313774a8499789bb7592ee,
+    type: 2}
+  cardDetails: {fileID: 11400000, guid: e16764de8044d234dab300b8dfba1360, type: 2}
+  playerName: {fileID: 11400000, guid: 0aa3ea3c8eee83a4d88f75f712600418, type: 2}
+  teamName: {fileID: 11400000, guid: 6ce77e038d4270b4d8c68f4371d54e12, type: 2}
+  gem1Achieved: {fileID: 11400000, guid: d92db328f24e4a8409ee06ae0caa39f3, type: 2}
+  gem2Achieved: {fileID: 11400000, guid: bd4ae0f304a0bd043afc6eb78a829630, type: 2}
+  gem3Achieved: {fileID: 11400000, guid: b6736223d1e5a4d45a07e41bbf5238ab, type: 2}
+  gem4Achieved: {fileID: 11400000, guid: 0269286922d9f5647bd31722e05454db, type: 2}
+  gem5Achieved: {fileID: 11400000, guid: c021bc4a35aa5fa4eb35373ffb37b124, type: 2}
+  gem6Achieved: {fileID: 11400000, guid: fab477660c7b5a849a3e8f81f1b1984b, type: 2}
+  settings:
+  - colorDefinition: {fileID: 11400000, guid: 45fb00dfe486f6e4097f6176db2d3202, type: 2}
+    typeIndex: 1
+    set: 0
+    lightness: 1
+  - colorDefinition: {fileID: 11400000, guid: 6079fc3dcd9dd54409f42aad0fc6483f, type: 2}
+    typeIndex: 0
+    set: 0
+    lightness: 2
+  - colorDefinition: {fileID: 11400000, guid: 1110aa502bfe4d24398eb07b2ee3c63d, type: 2}
+    typeIndex: 0
+    set: 0
+    lightness: 0
+  - colorDefinition: {fileID: 11400000, guid: 86e855828a857634ba0f98c60d5a6e16, type: 2}
+    typeIndex: 1
+    set: 0
+    lightness: 1
+  - colorDefinition: {fileID: 11400000, guid: 2ffad92d0f682f24785403d1a91a0c3e, type: 2}
+    typeIndex: 0
+    set: 0
+    lightness: 1
+  - colorDefinition: {fileID: 11400000, guid: ce8f68dbc406f7749aef817120e4a7c2, type: 2}
+    typeIndex: 0
+    set: 0
+    lightness: 1
+  - colorDefinition: {fileID: 11400000, guid: d03c2f78ef5ac564fb189905b008c2e6, type: 2}
+    typeIndex: 2
+    set: 0
+    lightness: 5
+  - colorDefinition: {fileID: 11400000, guid: fd0a1adb6e4242344b89c9f0ba80175f, type: 2}
+    typeIndex: 1
+    set: 0
+    lightness: 0
+  - colorDefinition: {fileID: 11400000, guid: 6bf2b99a1237557488102c6ad7558c41, type: 2}
+    typeIndex: 1
+    set: 0
+    lightness: 1
+  - colorDefinition: {fileID: 11400000, guid: b017792883b6a054fab53018b4722d6b, type: 2}
+    typeIndex: 1
+    set: 1
+    lightness: 3
+  - colorDefinition: {fileID: 11400000, guid: dd253ec42349d3f4996b1fe933f3a993, type: 2}
+    typeIndex: 0
+    set: 1
+    lightness: 2
+  - colorDefinition: {fileID: 11400000, guid: 037bb2967141bfd40b1054318b2978a5, type: 2}
+    typeIndex: 2
+    set: 1
+    lightness: 5
+  - colorDefinition: {fileID: 11400000, guid: 51f955204a1a287449a051c5bfca6780, type: 2}
+    typeIndex: 2
+    set: 1
+    lightness: 3
+  - colorDefinition: {fileID: 11400000, guid: 4da527d2621748849a8803f376ee5dca, type: 2}
+    typeIndex: 1
+    set: 1
+    lightness: 3
+  - colorDefinition: {fileID: 11400000, guid: 62be75a48fc282b46a2a8f8899450646, type: 2}
+    typeIndex: 1
+    set: 1
+    lightness: 5
+  - colorDefinition: {fileID: 11400000, guid: 5c3137dc28f1d5b40a0070f7a891a376, type: 2}
+    typeIndex: 0
+    set: 1
+    lightness: 3
+  - colorDefinition: {fileID: 11400000, guid: 98bb4f57cfcd9084c80af1ac3345cd57, type: 2}
+    typeIndex: 1
+    set: 0
+    lightness: 2
+  - colorDefinition: {fileID: 11400000, guid: 36bbb29adfcd9f74d9ba63b8af24e829, type: 2}
+    typeIndex: 0
+    set: 1
+    lightness: 3
+  - colorDefinition: {fileID: 11400000, guid: 6c0deeffc683d154b9737511c3fef738, type: 2}
+    typeIndex: 2
+    set: 1
+    lightness: 5
+--- !u!114 &114580332234450962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189196275770702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058d5d5bcb8e40c41b37a4260b3a646b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definition: {fileID: 11400000, guid: 65a493816ff0f324fbcba03076790807, type: 2}
+--- !u!114 &114825034117217210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321955700903818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61770589b68d49d498440228a679d571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromJson: '{"plugs":["card.default","body.core ui elements_19","head.core ui elements_88","ears.core
+    ui elements_21","eyes.core ui elements_174","mouth.core ui elements_210","nose.core
+    ui elements_248"],"features":["core ui elements_315b","core ui elements_386","core
+    ui elements_196","core ui elements_82"],"adjustables":["body_scale_x","body_scale_y","body_rotate_z","ear_scale","eye_distance","eye_height","eye_size","eye_rotation","mouth_pos_x","mouth_pos_y","mouth_rotate_z","mouth_scale_x","mouth_scale_y","nose_scale_y"],"adjustableSettings":["0.754299104","0.531476974","0.723020911","0.500370264","0.644441128","0.493755519","0.439893126","0.415374428","0.375790834","0.36966747","0.558846414","0.469405055","0.506370723","0.304852873"],"variables":["card_color","card_description_frame_color","card_pattern_color","card_coins_background_color","card_text_color","coins_collected","card_stats_background_color","coins_from_challenges","coins_from_cards","challenges_complete","cards_collected","card_gems_background_color","gem_1_achieved","gem_2_achieved","gem_3_achieved","gem_4_achieved","gem_5_achieved","gem_6_achieved","background_color","pattern_color","clothing_color","ears_color","skin_color","eye_color","hair_color","nose_color","card_text_shadow_color","name","team","details"],"variableValues":["{\"x\":0.3179999887943268,\"y\":0.125,\"z\":0.5329999923706055,\"w\":1.0}","{\"x\":0.12198567390441895,\"y\":0.03790789097547531,\"z\":0.21724136173725129,\"w\":1.0}","{\"x\":0.25099998712539675,\"y\":0.07800000160932541,\"z\":0.44699999690055849,\"w\":1.0}","{\"x\":0.6589999794960022,\"y\":0.41999998688697817,\"z\":0.07100000232458115,\"w\":1.0}","{\"x\":0.925000011920929,\"y\":0.5139999985694885,\"z\":0.6200000047683716,\"w\":1.0}","{}","{\"x\":0.25099998712539675,\"y\":0.07800000160932541,\"z\":0.44699999690055849,\"w\":1.0}","{}","{}","{}","{}","{\"x\":0.6589999794960022,\"y\":0.41999998688697817,\"z\":0.07100000232458115,\"w\":1.0}","{}","{}","{}","{}","{}","{}","{\"x\":0.6589999794960022,\"y\":0.41999998688697817,\"z\":0.07100000232458115,\"w\":1.0}","{\"x\":0.7879999876022339,\"y\":0.5220000147819519,\"z\":0.13699999451637269,\"w\":1.0}","{\"x\":0.20000000298023225,\"y\":0.3799999952316284,\"z\":0.5569999814033508,\"w\":1.0}","{\"x\":0.3449999988079071,\"y\":0.6899999976158142,\"z\":0.11800000071525574,\"w\":1.0}","{\"x\":0.4350000023841858,\"y\":0.753000020980835,\"z\":0.23100000619888307,\"w\":1.0}","{\"x\":1.0,\"y\":0.968999981880188,\"z\":0.5569999814033508,\"w\":1.0}","{\"x\":0.8550000190734863,\"y\":0.8119999766349793,\"z\":0.2630000114440918,\"w\":1.0}","{\"x\":0.4350000023841858,\"y\":0.753000020980835,\"z\":0.23100000619888307,\"w\":1.0}","{\"x\":0.38275861740112307,\"y\":0.2439432591199875,\"z\":0.04123802110552788,\"w\":1.0}","{}","{}","{}"]}'
+  toJson: 
+  randomJson: 
+  compressedJson: 
+--- !u!114 &114928767318230806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321955700903818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef84d39d9355da54db7e3934aeb9b62c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  definition: {fileID: 11400000, guid: 95b8e0ee39ff12e47ac551f92340060e, type: 2}
+  holes:
+  - {fileID: 114580332234450962}
+--- !u!114 &114933821877276672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189196275770702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095e11ff97bede34b84fd1cffe6709a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage:
+    message: 
+    messageType: 0
+    display: 0
+  unscaledTime: 0
+  stopAnimationsOnDisable: 1
+  startDisabled: 0
+  endDisabled: 0
+  endInPool: 0
+  animationTargets:
+    gameObject: {fileID: 1189196275770702}
+    transform: {fileID: 224869476921521584}
+    image: {fileID: 0}
+    canvasGroup: {fileID: 0}
+  animatedProperties:
+    active: 0
+    position:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+    scale:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    color: 0
+    alpha: 0
+  origin:
+    isAbsolute: 1
+    isCanvasState: 1
+    active: 1
+    position: {x: 0, y: 680, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    scale: {x: 1.2, y: 1.2, z: 1.2}
+    color: {x: 0, y: 0, z: 0, w: 0}
+    alpha: 1
+  originDefined: 1
+  activeTag: 
+  originalGameObject: {fileID: 1189196275770702}
+  activePhase: 1
+  phaseBehaviour: 0
+  onEnableTag: 
+  onEnableDo: 1
+  Animations:
+    presetMessage:
+      message: PRESET is in efect
+      messageType: 1
+      display: 1
+    behaviour: 0
+    presetDefinition: {fileID: 11400000, guid: 3566caadebf64f146bd47c8cb20a8e06, type: 2}
+    customDefinition:
+      inTransitions:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0
+          duration: 1
+          loopType: 0
+          randomStartTime: 0
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: 0, y: 948, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+            scale: {x: 1, y: 1, z: 1}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: 1a7729874da2c7349b03b366cb3304c0, type: 2}
+          animatable: {fileID: 114933821877276672}
+          fadeInIdleAtPercent: 0.8
+          playIdleTag: 
+          playIdleBehaviour: 1
+      idleAnimations:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0
+          duration: 400
+          loopType: 1
+          randomStartTime: 1
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: -2, y: -20, z: 0}
+            rotation: {x: 0, y: 0, z: -0.008726559, w: 0.9999619}
+            scale: {x: 1, y: 1, z: 1}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: f2c6df6ad46980042ae8a4c56d484337, type: 2}
+          animatable: {fileID: 114933821877276672}
+          fadeInTime: 5
+      outTransitions:
+      - presetMessage:
+          message: Custom definition is in effect
+          messageType: 2
+          display: 1
+        behaviour: 0
+        presetDefinition: {fileID: 0}
+        customDefinition:
+          errorMessage:
+            message: 
+            messageType: 0
+            display: 0
+          changeMessage:
+            message: Object is currently not at this animation's diff point. You can
+              set a new one at the object's current state, or return back to old set
+              point
+            messageType: 1
+            display: 1
+          initialized: 1
+          tag: 
+          baseDelay: 0
+          childIndexDelay: 0
+          duration: 0.75
+          loopType: 0
+          randomStartTime: 0
+          autoOriginOnAnimTrigger: 0
+          valueDifference:
+            isAbsolute: 0
+            isCanvasState: 1
+            active: 0
+            position: {x: 0, y: 948, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+            scale: {x: 1, y: 1, z: 1}
+            color: {x: 0, y: 0, z: 0, w: 0}
+            alpha: 0
+          curves: {fileID: 11400000, guid: 12724439f8c26fd4d99b0becca5c145b, type: 2}
+          animatable: {fileID: 114933821877276672}
+      initialized: 1
+  events:
+    onTransitionInStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionInEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onIdleAnimationStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onIdleAnimationEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionOutStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onTransitionOutEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: StringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  todoBox:
+    message: "####### TODO ####### \n- Add prefix tag\n- Let animations run stackwise\n-
+      Transition calling from script\n- Allow playing audio as well\n"
+    messageType: 1
+    display: 1
+--- !u!224 &224492745891916498
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321955700903818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224869476921521584}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224869476921521584
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189196275770702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 224492745891916498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 680}
+  m_SizeDelta: {x: 450, y: 700}
+  m_Pivot: {x: 0.5, y: 0.5}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 22fbfcb06e836bd4ba5dbd8eb221fb2e
+timeCreated: 1511782906
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HenryMorganHand
+  fontNames:
+  - HenryMorganHand
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

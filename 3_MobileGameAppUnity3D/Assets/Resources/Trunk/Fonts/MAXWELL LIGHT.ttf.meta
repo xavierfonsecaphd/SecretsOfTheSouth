@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ee79fa204f609dd458a50565985c5d74
+timeCreated: 1519654898
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MAXWELL LIGHT
+  fontNames:
+  - MAXWELL LIGHT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

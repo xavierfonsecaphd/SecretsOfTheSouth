@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b0464209607014080c3cbbaef27d84, type: 3}
+  m_Name: Socket_Mouth
+  m_EditorClassIdentifier: 
+  uniqueID: mouth
+  m_LocaleItems:
+  - m_Language: 10
+    m_Value: Mouth
+  holes:
+  - {fileID: 11400000, guid: 8fde8773ba7a6cd4790552509dfe76ee, type: 2}
+  emptyAllowed: 0
