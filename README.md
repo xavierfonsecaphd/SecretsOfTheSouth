@@ -323,8 +323,16 @@ At this point, run nginx again, and you should be good to go:
 
 -   Sudo nginx
 
-SotS mobile game
-----------------
+SotS mobile game 
+-----------------
+
+(currently published here[[1]](#_ftn1))
+
+[[1]](#_ftnref1
+https://play.google.com/store/apps/details?id=com.Xav13rua.SecretsOfTheSouthv2)
+
+<https://play.google.com/store/apps/details?id=com.Xav13rua.SecretsOfTheSouthv2>,
+Secrets of the South, google play store
 
 Now, open your Unity3D development environment. If you do not have it installed
 yet, consider installing the version 2017.4.14f1 (has mono developer with it).
